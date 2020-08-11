@@ -322,10 +322,29 @@ class RowParallelLinear(torch.nn.Module):
             input_parallel = input_
         else:
             input_parallel = scatter_to_model_parallel_region(input_)
+        # micro batch pipeline
+        from .initialize import get_model_parallel_group
+        group = get_model_parallel_group()
+    
+        '''
+        # split mini-batch to micro-batch
+        micro_batch = torch.split(input_parallel, int(input_parallel.shape[0]/2), dim=0)
+
+        # First micro_batch.
+        output_parallel_0 = F.linear(micro_batch[0], self.weight)
+        handle_0 = torch.distributed.all_reduce(output_parallel_0, group=group, async_op=True)
+        # Second micro_batch.
+        output_parallel_1 = F.linear(micro_batch[1], self.weight)
+        handle_1 = torch.distributed.all_reduce(output_parallel_1, group=group, async_op=True)
+        handle_0.wait()
+        handle_1.wait()
+        output_ = torch.cat((output_parallel_0, output_parallel_1),dim=0)
+        '''
         # Matrix multiply.
         output_parallel = F.linear(input_parallel, self.weight)
         # All-reduce across all the partitions.
         output_ = reduce_from_model_parallel_region(output_parallel)
+        
         if self.bias is not None:
             output = output_ + self.bias
         else:
