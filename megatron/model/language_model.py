@@ -49,9 +49,9 @@ def get_language_model(attention_mask_func, num_tokentypes, add_pooler,
     args = get_args()
 
     # Use torch gelu unless otherwise forced.
-    gelu = F.gelu
-    if args.openai_gelu:
-        gelu = openai_gelu
+    gelu = F.relu
+    #if args.openai_gelu:
+    #    gelu = openai_gelu
     
     # Language model.
     language_model = TransformerLanguageModel(

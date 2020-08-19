@@ -49,8 +49,8 @@ def parse_args(extra_args_provider=None, defaults={},
         args = parser.parse_args()
 
     # Distributed args.
-    args.rank = int(os.getenv('RANK', '0'))
-    args.world_size = int(os.getenv("WORLD_SIZE", '1'))
+    args.rank = int(os.environ['SLURM_PROCID'])
+    args.world_size = int(os.environ['SLURM_NTASKS'])
     args.model_parallel_size = min(args.model_parallel_size, args.world_size)
     if args.rank == 0:
         print('using world size: {} and model-parallel size: {} '.format(

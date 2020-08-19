@@ -78,9 +78,15 @@ def forward_step(data_iterator, model):
     timers('batch generator').stop()
 
     # Forward model. lm_labels
-    lm_loss_, sop_logits = model(tokens, padding_mask,
-                                 tokentype_ids=types,
-                                 lm_labels=lm_labels)
+    #for _ in range(1):
+    #    model(tokens, padding_mask, tokentype_ids=types,lm_labels=lm_labels)
+
+    with torch.cuda.profiler.profile():
+        with torch.autograd.profiler.emit_nvtx():
+            lm_loss_, sop_logits = model(tokens, padding_mask,
+                                         tokentype_ids=types,
+                                         lm_labels=lm_labels)
+    exit()
 
     sop_loss = F.cross_entropy(sop_logits.view(-1, 2).float(),
                                sentence_order.view(-1),
@@ -118,6 +124,21 @@ def train_valid_test_datasets_provider(train_val_test_num_samples):
 
 
 if __name__ == "__main__":
+    import os
+    import re
+    rank = int(os.environ['SLURM_PROCID'])
+    world_size = int(os.environ['SLURM_NTASKS'])
+    local_rank = int(os.environ['SLURM_LOCALID'])
+
+    node_list = str(os.environ['SLURM_NODELIST'])
+    node_parts = re.findall('[0-9]+', node_list)
+    host_ip = '{}.{}.{}.{}'.format(node_parts[1], node_parts[2], node_parts[3], node_parts[4])
+    port = "23456"
+    init_method = 'tcp://{}:{}'.format(host_ip, port)
+
+    torch.distributed.init_process_group("nccl", init_method=init_method,
+                                         world_size=world_size, rank=rank)
+    torch.cuda.set_device(local_rank)
 
     pretrain(train_valid_test_datasets_provider, model_provider, forward_step,
              args_defaults={'tokenizer_type': 'BertWordPieceLowerCase'})
