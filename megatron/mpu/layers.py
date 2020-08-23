@@ -246,8 +246,44 @@ class ColumnParallelLinear(torch.nn.Module):
     def forward(self, input_):
         # Set up backprop all-reduce.
         input_parallel = copy_to_model_parallel_region(input_)
+        
+        # # micro batch only, no pipeline
+        # micro_batch = torch.split(input_parallel, int(input_parallel.shape[0]/2), dim=0)
+        
+        # NOTE: no scatter for nccl backend, so this code snippet does not work
+        # micro batch pipeline
+        from .initialize import get_model_parallel_group
+        group = get_model_parallel_group()
+        rank = torch.distributed.get_rank(group=group)
+        world_size = torch.distributed.get_world_size(group=group)
+
+        # split mini-batch to micro-batch
+        micro_batch = torch.split(input_parallel, int(input_parallel.shape[0]/2), dim=0)
+
+        # First micro_batch.
+        output_parallel_0 = F.linear(micro_batch[0], self.weight, self.bias)
+        last_dim = micro_batch[0].dim() - 1
+        tensor_list_0 = [torch.empty_like(output_parallel_0) for _ in range(world_size)]
+        tensor_list_0[rank] = output_parallel_0
+        handle_0 = torch.distributed.all_gather(tensor_list_0, output_parallel_0, group=group, async_op=True)
+
+        # Second micro_batch.
+        output_parallel_1 = F.linear(micro_batch[1], self.weight, self.bias)
+        last_dim = micro_batch[1].dim() - 1
+        tensor_list_1 = [torch.empty_like(output_parallel_1) for _ in range(world_size)]
+        tensor_list_1[rank] = output_parallel_1
+        handle_1 = torch.distributed.all_gather(tensor_list_1, output_parallel_1, group=group, async_op=True)
+        
+        handle_0.wait()
+        handle_1.wait()
+
+        # concat and scatter
+        concat_output = [torch.cat((output_0, output_1),dim=0) for output_0, output_1 in zip(tensor_list_0, tensor_list_1)]    
+        output_parallel = torch.empty_like(concat_output[0])
+        torch.distributed.reduce_scatter(output_parallel, concat_output, op=torch.distributed.ReduceOp.MIN, group=group)
+
         # Matrix multiply.
-        output_parallel = F.linear(input_parallel, self.weight, self.bias)
+        # output_parallel = F.linear(input_parallel, self.weight, self.bias)
         if self.gather_output:
             # All-gather across the partitions.
             output = gather_from_model_parallel_region(output_parallel)
@@ -322,24 +358,28 @@ class RowParallelLinear(torch.nn.Module):
             input_parallel = input_
         else:
             input_parallel = scatter_to_model_parallel_region(input_)
+    
+        """
         # micro batch pipeline
         from .initialize import get_model_parallel_group
         group = get_model_parallel_group()
-    
-        '''
+
         # split mini-batch to micro-batch
         micro_batch = torch.split(input_parallel, int(input_parallel.shape[0]/2), dim=0)
 
         # First micro_batch.
         output_parallel_0 = F.linear(micro_batch[0], self.weight)
         handle_0 = torch.distributed.all_reduce(output_parallel_0, group=group, async_op=True)
+        
         # Second micro_batch.
         output_parallel_1 = F.linear(micro_batch[1], self.weight)
         handle_1 = torch.distributed.all_reduce(output_parallel_1, group=group, async_op=True)
+
         handle_0.wait()
         handle_1.wait()
         output_ = torch.cat((output_parallel_0, output_parallel_1),dim=0)
-        '''
+        """
+        
         # Matrix multiply.
         output_parallel = F.linear(input_parallel, self.weight)
         # All-reduce across all the partitions.

@@ -26,6 +26,7 @@ from megatron.data.bert_dataset import build_train_valid_test_datasets
 from megatron.model import BertModel
 from megatron.training import pretrain
 from megatron.utils import reduce_losses
+import time
 
 
 def model_provider():
@@ -78,9 +79,17 @@ def forward_step(data_iterator, model):
     timers('batch generator').stop()
 
     # Forward model. lm_labels
-    lm_loss_, sop_logits = model(tokens, padding_mask,
-                                 tokentype_ids=types,
-                                 lm_labels=lm_labels)
+    with torch.cuda.profiler.profile():
+        with torch.autograd.profiler.emit_nvtx():
+            torch.cuda.synchronize()
+            start = time.time()
+            lm_loss_, sop_logits = model(tokens, padding_mask,
+                                         tokentype_ids=types,
+                                         lm_labels=lm_labels)
+            torch.cuda.synchronize()
+            end = time.time()
+            print("Time for forward pass: {}".format(end-start))            
+    exit()
 
     sop_loss = F.cross_entropy(sop_logits.view(-1, 2).float(),
                                sentence_order.view(-1),
