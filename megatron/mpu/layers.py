@@ -247,10 +247,10 @@ class ColumnParallelLinear(torch.nn.Module):
         # Set up backprop all-reduce.
         input_parallel = copy_to_model_parallel_region(input_)
         
-        # # micro batch only, no pipeline
+        """
+        # # micro batch
         # micro_batch = torch.split(input_parallel, int(input_parallel.shape[0]/2), dim=0)
         
-        # NOTE: no scatter for nccl backend, so this code snippet does not work
         # micro batch pipeline
         from .initialize import get_model_parallel_group
         group = get_model_parallel_group()
@@ -281,9 +281,10 @@ class ColumnParallelLinear(torch.nn.Module):
         concat_output = [torch.cat((output_0, output_1),dim=0) for output_0, output_1 in zip(tensor_list_0, tensor_list_1)]    
         output_parallel = torch.empty_like(concat_output[0])
         torch.distributed.reduce_scatter(output_parallel, concat_output, op=torch.distributed.ReduceOp.MIN, group=group)
+        """
 
         # Matrix multiply.
-        # output_parallel = F.linear(input_parallel, self.weight, self.bias)
+        output_parallel = F.linear(input_parallel, self.weight, self.bias)
         if self.gather_output:
             # All-gather across the partitions.
             output = gather_from_model_parallel_region(output_parallel)
