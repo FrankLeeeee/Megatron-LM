@@ -366,7 +366,8 @@ class RowParallelLinear(torch.nn.Module):
         group = get_model_parallel_group()
 
         # split mini-batch to micro-batch
-        micro_batch = torch.split(input_parallel, int(input_parallel.shape[0]/2), dim=0)
+        # micro_batch = torch.split(input_parallel, int(input_parallel.shape[0]/2), dim=0)
+        micro_batch = torch.split(input_parallel, [7, 1], dim=0)
 
         # First micro_batch.
         output_parallel_0 = F.linear(micro_batch[0], self.weight)

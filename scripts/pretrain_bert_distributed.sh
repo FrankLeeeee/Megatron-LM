@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # set GPUS
-export CUDA_VISIBLE_DEVICES=1,2
+export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
 
 
-GPUS_PER_NODE=2
+GPUS_PER_NODE=8
 # Change for multinode config
 MASTER_ADDR=localhost
-MASTER_PORT=6000
+MASTER_PORT=6002
 NNODES=1
 NODE_RANK=0
 WORLD_SIZE=$(($GPUS_PER_NODE*$NNODES))
@@ -18,7 +18,9 @@ CHECKPOINT_PATH=../checkpoints
 
 DISTRIBUTED_ARGS="--nproc_per_node $GPUS_PER_NODE --nnodes $NNODES --node_rank $NODE_RANK --master_addr $MASTER_ADDR --master_port $MASTER_PORT"
 
-python -m torch.distributed.launch $DISTRIBUTED_ARGS \
+/usr/local/cuda-10.2/bin/nvprof --profile-from-start off --profile-child-processes \
+       -f -o ./nvprof_outputs/bert_trace_%p.prof \
+       python -m torch.distributed.launch $DISTRIBUTED_ARGS \
        pretrain_bert.py \
        --model-parallel-size 2 \
        --num-layers 24 \

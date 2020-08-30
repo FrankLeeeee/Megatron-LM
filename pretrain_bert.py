@@ -79,16 +79,16 @@ def forward_step(data_iterator, model):
     timers('batch generator').stop()
 
     # Forward model. lm_labels
-    with torch.cuda.profiler.profile():
-        with torch.autograd.profiler.emit_nvtx():
-            torch.cuda.synchronize()
-            start = time.time()
-            lm_loss_, sop_logits = model(tokens, padding_mask,
-                                         tokentype_ids=types,
-                                         lm_labels=lm_labels)
-            torch.cuda.synchronize()
-            end = time.time()
-            print("Time for forward pass: {}".format(end-start))            
+    # with torch.cuda.profiler.profile():
+        # with torch.autograd.profiler.emit_nvtx():
+            # torch.cuda.synchronize()
+            # start = time.time()
+    lm_loss_, sop_logits = model(tokens, padding_mask,
+                                    tokentype_ids=types,
+                                    lm_labels=lm_labels)
+            # torch.cuda.synchronize()
+            # end = time.time()
+            # print("Time for forward pass: {}".format(end-start))            
     exit()
 
     sop_loss = F.cross_entropy(sop_logits.view(-1, 2).float(),
