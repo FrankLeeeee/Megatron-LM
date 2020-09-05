@@ -18,7 +18,7 @@ CHECKPOINT_PATH=../checkpoints
 
 DISTRIBUTED_ARGS="--nproc_per_node $GPUS_PER_NODE --nnodes $NNODES --node_rank $NODE_RANK --master_addr $MASTER_ADDR --master_port $MASTER_PORT"
 
-/usr/local/cuda-10.2/bin/nvprof --profile-from-start off --profile-child-processes \
+/usr/local/cuda-9.0/bin/nvprof --profile-from-start off --profile-child-processes \
        -f -o ./nvprof_outputs/bert_trace_%p.prof \
        python -m torch.distributed.launch $DISTRIBUTED_ARGS \
        pretrain_bert.py \
