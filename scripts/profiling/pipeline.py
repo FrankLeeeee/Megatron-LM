@@ -41,11 +41,11 @@ if __name__ == "__main__":
     weight = torch.rand(weight_shape).cuda().half()
     inputs = torch.rand(input_shape).cuda().half()
 
-    for _ in range(10):
-        torch.cuda.synchronize()
-        output = F.linear(inputs, weight)
-        torch.distributed.all_reduce(output)
-    torch.distributed.all_reduce(output)
+#     for _ in range(10):
+#         torch.cuda.synchronize()
+#         output = F.linear(inputs, weight)
+#         torch.distributed.all_reduce(output)
+#     torch.distributed.all_reduce(output)
 
     cu_prof_start()
     with torch.cuda.profiler.profile():
