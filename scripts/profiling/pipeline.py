@@ -41,33 +41,32 @@ if __name__ == "__main__":
     weight = torch.rand(weight_shape).cuda().half()
     inputs = torch.rand(input_shape).cuda().half()
 
+    for _ in range(10):
+        torch.cuda.synchronize()
+        output = F.linear(inputs, weight)
+        torch.distributed.all_reduce(output)
+    torch.distributed.all_reduce(output)
+
     cu_prof_start()
-    if not args.pipeline:
-        torch.cuda.synchronize()
-        start = time.time()
-        for _ in range(10):
-            output = F.linear(inputs, weight)
-            torch.distributed.all_reduce(output)
-        torch.cuda.synchronize()
-        print("no pipeline: {}ms".format((time.time()-start)*1000))
-    else:
-        with torch.cuda.profiler.profile():
-            with torch.autograd.profiler.emit_nvtx():
-                split_size = (int(batch*args.split_ratio), batch - int(batch*args.split_ratio))
-                micro_batch = torch.split(inputs, split_size, dim=0)
-                torch.cuda.synchronize()
-                start = time.time()
-                for _ in range(10):
-                    '''
+    with torch.cuda.profiler.profile():
+        with torch.autograd.profiler.emit_nvtx():
+            split_size = (int(batch*args.split_ratio), batch - int(batch*args.split_ratio))
+            micro_batch = torch.split(inputs, split_size, dim=0)
+            torch.cuda.synchronize()
+
+            start = time.time()
+            for _ in range(10):
+                if not args.pipeline:
                     output = F.linear(inputs, weight)
                     torch.distributed.all_reduce(output)
-                    '''
+                else:
                     output1 = F.linear(micro_batch[0], weight)
                     handle1 = torch.distributed.all_reduce(output1, async_op=True)
                     output2 = F.linear(micro_batch[1], weight)
                     handle2 = torch.distributed.all_reduce(output2, async_op=True)
                     handle1.wait()
                     handle2.wait()
-                torch.cuda.synchronize()
-                print("pipeline: {}ms".format((time.time()-start)*1000))
-    cu_prof_stop()
+            
+            torch.cuda.synchronize()
+            print("pipeline: {}ms".format((time.time()-start)*1000))
+            cu_prof_stop()
