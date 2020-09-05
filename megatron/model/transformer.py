@@ -86,7 +86,9 @@ class ParallelMLP(MegatronModule):
         intermediate_parallel = self.activation_func(intermediate_parallel)
 
         # [b, s, h]
+        torch.cuda.cudart().cudaProfilerStart()
         output = self.dense_4h_to_h(intermediate_parallel)
+        torch.cuda.cudart().cudaProfilerStop()
         output = self.dropout(output)
         return output
 

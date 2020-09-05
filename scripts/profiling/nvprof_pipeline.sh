@@ -23,6 +23,8 @@ mkdir -p $output_path
 
 # set GPUS
 export CUDA_VISIBLE_DEVICES=$gpus
+export PATH=/usr/local/cuda-10.2/bin/:$PATH
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/local/cuda-10.2/lib64
 
 GPUS_PER_NODE=$gpus_per_node
 MASTER_ADDR=localhost
@@ -34,7 +36,11 @@ WORLD_SIZE=$(($GPUS_PER_NODE*$NNODES))
 
 DISTRIBUTED_ARGS="--nproc_per_node $GPUS_PER_NODE --nnodes $NNODES --node_rank $NODE_RANK --master_addr $MASTER_ADDR --master_port $MASTER_PORT"
 
+<<<<<<< HEAD
 /usr/lib/nvidia-cuda-toolkit/bin/nvprof --profile-from-start off --profile-child-processes \
+=======
+/usr/local/cuda/bin/nvprof --profile-from-start off --profile-child-processes \
+>>>>>>> 9419ad80f1b555fe129565895d24acb82d735cf4
 	-f -o ${output_path}/bert_trace_%p.prof \
 	python -m torch.distributed.launch $DISTRIBUTED_ARGS pipeline.py \
 	--batch_size $batch_size \
