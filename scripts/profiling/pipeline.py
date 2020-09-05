@@ -3,7 +3,21 @@ import torch.nn.functional as F
 
 import argparse
 import time
+import ctypes
 
+
+_cudart = ctypes.CDLL('libcudart.so')
+
+def cu_prof_start():
+  ret = _cudart.cudaProfilerStart()
+  if ret != 0:
+    raise Exception('cudaProfilerStart() returned %d' % ret)
+
+
+def cu_prof_stop():
+  ret = _cudart.cudaProfilerStop()
+  if ret != 0:
+    raise Exception('cudaProfilerStop() returned %d' % ret)
 
 if __name__ == "__main__":
     # init distributed environment
@@ -27,6 +41,7 @@ if __name__ == "__main__":
     weight = torch.rand(weight_shape).cuda().half()
     inputs = torch.rand(input_shape).cuda().half()
 
+    cu_prof_start()
     if not args.pipeline:
         torch.cuda.synchronize()
         start = time.time()
@@ -55,3 +70,4 @@ if __name__ == "__main__":
                     handle2.wait()
                 torch.cuda.synchronize()
                 print("pipeline: {}ms".format((time.time()-start)*1000))
+    cu_prof_stop()

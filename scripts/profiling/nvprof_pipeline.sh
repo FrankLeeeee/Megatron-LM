@@ -34,8 +34,8 @@ WORLD_SIZE=$(($GPUS_PER_NODE*$NNODES))
 
 DISTRIBUTED_ARGS="--nproc_per_node $GPUS_PER_NODE --nnodes $NNODES --node_rank $NODE_RANK --master_addr $MASTER_ADDR --master_port $MASTER_PORT"
 
-# nvprof --profile-from-start off --profile-child-processes \
-# 	-f -o ${output_path}/bert_trace_%p.prof \
+nvprof --profile-from-start off --profile-child-processes \
+	-f -o ${output_path}/bert_trace_%p.prof \
 	python -m torch.distributed.launch $DISTRIBUTED_ARGS pipeline.py \
 	--batch_size $batch_size \
 	--mid_dim $mid_dim \
