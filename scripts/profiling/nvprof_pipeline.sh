@@ -23,8 +23,8 @@ mkdir -p $output_path
 
 # set GPUS
 export CUDA_VISIBLE_DEVICES=$gpus
-export PATH=/usr/local/cuda-10.1/bin/:$PATH
-export LD_LIBRARY_PATH=/usr/local/cuda-10.1/lib64:${LD_LIBRARY_PATH}
+export PATH=/usr/local/cuda-10.2/bin/:$PATH
+export LD_LIBRARY_PATH=/usr/local/cuda-10.2/lib64:${LD_LIBRARY_PATH}
 
 GPUS_PER_NODE=$gpus_per_node
 MASTER_ADDR=localhost
