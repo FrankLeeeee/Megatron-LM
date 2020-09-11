@@ -1,25 +1,21 @@
 import torch
 import torch.nn.functional as F
 import time
+import pandas as pd
 
 
 def init_dist():
     import os
     import re
-    rank = int(os.environ['SLURM_PROCID'])
-    world_size = int(os.environ['SLURM_NTASKS'])
-    local_rank = int(os.environ['SLURM_LOCALID'])
+    import argparse
 
-    node_list = str(os.environ['SLURM_NODELIST'])
-    node_parts = re.findall('[0-9]+', node_list)
-    host_ip = '{}.{}.{}.{}'.format(node_parts[1], node_parts[2], node_parts[3], node_parts[4])
-    port = "23456"
-    init_method = 'tcp://{}:{}'.format(host_ip, port)
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--local_rank', default=0, type=int, help='node rank for distributed training')
+    args = parser.parse_args()
 
-    torch.distributed.init_process_group("nccl", init_method=init_method,
-                                         world_size=world_size, rank=rank)
-    torch.cuda.set_device(local_rank)
-    return rank
+    torch.distributed.init_process_group("nccl", init_method='env://')
+    torch.cuda.set_device(args.local_rank)
+    return args.local_rank
 
 
 def no_overlap(inputs, weight, warmup_round=10, test_round=20):
@@ -75,6 +71,16 @@ if __name__ == "__main__":
     mid_dims = [128, 256, 512, 1024, 2048]
     batch_sizes = [4,8, 16, 32, 64]
 
+    if rank == 0:
+        pd_data = {
+            'mid_dim': [], 
+            'batch_size': [], 
+            'baseline': [],
+            'minimal_batch': [], 
+            'minimal_time':[],
+            'improvement': []
+            }
+
     for mid_dim in mid_dims:
         for batch_size in batch_sizes:
             # get baseline
@@ -82,18 +88,35 @@ if __name__ == "__main__":
             baseline = no_overlap(inputs, weight)
             if rank==0:
                 print("baseline (dim:{} batch:{}): {}ms".format(mid_dim, batch_size, baseline))
+                pd_data['mid_dim'].append(mid_dim)
+                pd_data['batch_size'].append(batch_size)
+                pd_data['baseline'].append(baseline)
+
             # get overlap for different micro batches
-            minimial_time = None
-            minimial_batch = None
+            minimal_time = None
+            minimal_batch = None
             for first_batch in range(1, batch_size):
                 inputs, weight = generate_data(batch_size, mid_dim, first_batch)
                 overlap_time = overlap(inputs, weight)
                 if rank==0:
                     print("overlap (first batch:{}): {}ms".format(first_batch, overlap_time))
-                    if minimial_time is None or overlap_time < minimial_time:
-                        minimial_time = overlap_time
-                        minimial_batch = first_batch
+                    if minimal_time is None or overlap_time < minimal_time:
+                        minimal_time = overlap_time
+                        minimal_batch = first_batch
+            
+            if rank == 0:
+                pd_data['minimal_batch'].append(minimal_batch)
+                pd_data['minimal_time'].append(minimal_time)
+                
             if rank==0:
-                print("minimial: batch: {} time: {}ms".format(minimial_batch, minimial_time))
-                if minimial_time < baseline:
-                    print("find solution: {}".format(100*(baseline-minimial_time)/baseline))
+                print("minimal: batch: {} time: {}ms".format(minimal_batch, minimal_time))
+                improvement = 100*(baseline-minimal_time)/baseline
+                pd_data['improvement'].append(improvement)
+
+                if minimal_time < baseline:
+                    print("find solution: {}".format(improvement))
+    
+    if rank == 0:
+        pd = pd.DataFrame.from_dict(pd_data)
+        pd.to_csv("search_results.csv")
+                    
