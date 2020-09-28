@@ -33,7 +33,7 @@ def run(rank, world_size):
     # init env var
     os.environ['MASTER_ADDR'] = '192.168.41.6'
     os.environ['MASTER_PORT'] = '29525'
-    
+
     # set cuda device
     torch.cuda.set_device(rank)
 
@@ -45,7 +45,6 @@ def run(rank, world_size):
     print("rank:{} row_group:{}".format(rank, row_ranks))
     col_group = torch.distributed.new_group(ranks=col_ranks)
     print("rank:{} col_group:{}".format(rank, col_ranks))
-
 
     # ---- SUMMA ----
     # init matrix
@@ -60,7 +59,7 @@ def run(rank, world_size):
 
     # calculate results
     if rank == 0:
-        print("A * B * D is :{}".format(torch.matmul(torch.matmul(A, B), D))) 
+        print("A * B * D is :{}".format(torch.matmul(torch.matmul(A, B), D)))
 
     # step1: split A along the row
     A = torch.split(A, A_row//dim_row, dim=1)
@@ -96,11 +95,12 @@ def run(rank, world_size):
         if rank_row == 1:
             dist.broadcast(C_temp, rank_row*dim_col+step, row_group)
         torch.distributed.barrier()
-        print("rank:{} get broadcast row from rank:{}".format(rank, rank_row*dim_col+step))
+        print("rank:{} get broadcast row from rank:{}".format(
+            rank, rank_row*dim_col+step))
 
         # broadcast colum
         D_temp = D.clone()
-       
+
         if rank_col == 0:
             dist.broadcast(D_temp, step*dim_col+rank_col, col_group)
         torch.distributed.barrier()
@@ -108,12 +108,14 @@ def run(rank, world_size):
         if rank_col == 1:
             dist.broadcast(D_temp, step*dim_col+rank_col, col_group)
         torch.distributed.barrier()
-        print("rank:{} get broadcast colum from rank:{}".format(rank, step*dim_col+rank_col))
+        print("rank:{} get broadcast colum from rank:{}".format(
+            rank, step*dim_col+rank_col))
 
         E += torch.matmul(C_temp, D_temp)
         torch.distributed.barrier()
-    
+
     print("E: {}".format(E))
+
 
 def main():
     world_size = 4
@@ -124,4 +126,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
