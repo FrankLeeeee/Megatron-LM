@@ -1,0 +1,641 @@
+nid02543:13784:13784 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.42.4<0>
+nid02544:19108:19108 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.42.5<0>
+nid05923:3679:3679 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.55.82<0>
+nid05924:31600:31600 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.55.83<0>
+nid04499:28960:28960 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.49.182<0>
+nid04499:28960:28960 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+nid02543:13784:13784 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid02543:13784:13784 [0] NCCL INFO NET/IB : No device found.
+nid02543:13784:13784 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.42.4<0>
+NCCL version 2.4.8+cuda10.1
+nid02543:13784:13807 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid04499:28960:28960 [0] NCCL INFO NET/IB : No device found.
+nid04499:28960:28960 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.49.182<0>
+nid04499:28960:28973 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid02544:19108:19108 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+nid05924:31600:31600 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+nid05923:3679:3679 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+nid02544:19108:19108 [0] NCCL INFO NET/IB : No device found.
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+nid05924:31600:31600 [0] NCCL INFO NET/IB : No device found.
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid05923:3679:3679 [0] NCCL INFO NET/IB : No device found.
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid02544:19108:19108 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.42.5<0>
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid05924:31600:31600 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.55.83<0>
+nid05923:3679:3679 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.55.82<0>
+nid02544:19108:19121 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid05924:31600:31613 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid05923:3679:3692 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid05922:14924:14924 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.55.81<0>
+nid04498:7134:7134 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.49.181<0>
+nid05922:14924:14924 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+nid04498:7134:7134 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid04498:7134:7134 [0] NCCL INFO NET/IB : No device found.
+nid04498:7134:7134 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.49.181<0>
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid05922:14924:14924 [0] NCCL INFO NET/IB : No device found.
+nid05922:14924:14924 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.55.81<0>
+nid04497:1776:1776 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.49.180<0>
+nid04498:7134:7147 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid05922:14924:14937 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid04497:1776:1776 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid04497:1776:1776 [0] NCCL INFO NET/IB : No device found.
+nid04497:1776:1776 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.49.180<0>
+nid04497:1776:1789 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid04500:32680:32680 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.49.183<0>
+nid04500:32680:32680 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+nid02545:14383:14383 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.42.6<0>
+nid02545:14383:14383 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid04500:32680:32680 [0] NCCL INFO NET/IB : No device found.
+nid04500:32680:32680 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.49.183<0>
+nid07640:13125:13125 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.62.21<0>
+nid07640:13125:13125 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+nid05925:15181:15181 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.55.84<0>
+nid05925:15181:15181 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+nid04500:32680:32693 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid02545:14383:14383 [0] NCCL INFO NET/IB : No device found.
+nid02545:14383:14383 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.42.6<0>
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+nid02545:14383:14396 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid02546:12079:12079 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.42.7<0>
+nid07640:13125:13125 [0] NCCL INFO NET/IB : No device found.
+nid07640:13125:13125 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.62.21<0>
+nid05926:12490:12490 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.55.85<0>
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid05925:15181:15181 [0] NCCL INFO NET/IB : No device found.
+nid05925:15181:15181 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.55.84<0>
+nid07640:13125:13138 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid05925:15181:15195 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid07641:7753:7753 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.62.22<0>
+nid04496:22132:22132 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.49.179<0>
+nid04496:22132:22132 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+nid02546:12079:12079 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+nid05926:12490:12490 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+nid02546:12079:12079 [0] NCCL INFO NET/IB : No device found.
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid05926:12490:12490 [0] NCCL INFO NET/IB : No device found.
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid02546:12079:12079 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.42.7<0>
+nid05926:12490:12490 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.55.85<0>
+nid02546:12079:12092 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid05926:12490:12503 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid07641:7753:7753 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+nid07641:7753:7753 [0] NCCL INFO NET/IB : No device found.
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid04496:22132:22132 [0] NCCL INFO NET/IB : No device found.
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid07641:7753:7753 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.62.22<0>
+nid04496:22132:22132 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.49.179<0>
+nid07641:7753:7766 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid04496:22132:22145 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid07641:7753:7766 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid07641:7753:7766 [0] NCCL INFO include/net.h:19 -> 2
+nid07641:7753:7766 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid05925:15181:15195 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid05925:15181:15195 [0] NCCL INFO include/net.h:19 -> 2
+nid04499:28960:28973 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04499:28960:28973 [0] NCCL INFO include/net.h:19 -> 2
+nid04499:28960:28973 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid04500:32680:32693 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04500:32680:32693 [0] NCCL INFO include/net.h:19 -> 2
+nid05922:14924:14937 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid05922:14924:14937 [0] NCCL INFO include/net.h:19 -> 2
+nid05922:14924:14937 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid04496:22132:22145 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04496:22132:22145 [0] NCCL INFO include/net.h:19 -> 2
+nid04496:22132:22145 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid07640:13125:13138 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid07640:13125:13138 [0] NCCL INFO include/net.h:19 -> 2
+nid07640:13125:13138 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid04498:7134:7147 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04498:7134:7147 [0] NCCL INFO include/net.h:19 -> 2
+nid04498:7134:7147 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid02545:14383:14396 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid02545:14383:14396 [0] NCCL INFO include/net.h:19 -> 2
+nid02544:19108:19121 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid02544:19108:19121 [0] NCCL INFO include/net.h:19 -> 2
+nid04497:1776:1789 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04497:1776:1789 [0] NCCL INFO include/net.h:19 -> 2
+nid05924:31600:31613 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid05924:31600:31613 [0] NCCL INFO include/net.h:19 -> 2
+nid05923:3679:3692 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid05923:3679:3692 [0] NCCL INFO include/net.h:19 -> 2
+nid05923:3679:3692 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid02546:12079:12092 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid02546:12079:12092 [0] NCCL INFO include/net.h:19 -> 2
+nid05926:12490:12503 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid05926:12490:12503 [0] NCCL INFO include/net.h:19 -> 2
+nid05926:12490:12503 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid02543:13784:13807 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid02543:13784:13807 [0] NCCL INFO include/net.h:19 -> 2
+nid02543:13784:13807 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid05925:15181:15195 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid04500:32680:32693 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid02545:14383:14396 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid02544:19108:19121 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid04497:1776:1789 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid05924:31600:31613 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid02546:12079:12092 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid02543:13784:13807 [0] NCCL INFO Channel 00 :    0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15
+nid05925:15181:15195 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid05925:15181:15195 [0] NCCL INFO include/net.h:19 -> 2
+nid04500:32680:32693 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04500:32680:32693 [0] NCCL INFO include/net.h:19 -> 2
+nid05922:14924:14937 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid05922:14924:14937 [0] NCCL INFO include/net.h:19 -> 2
+nid04496:22132:22145 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04496:22132:22145 [0] NCCL INFO include/net.h:19 -> 2
+nid07640:13125:13138 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid07640:13125:13138 [0] NCCL INFO include/net.h:19 -> 2
+nid04498:7134:7147 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04498:7134:7147 [0] NCCL INFO include/net.h:19 -> 2
+nid02545:14383:14396 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid02545:14383:14396 [0] NCCL INFO include/net.h:19 -> 2
+nid02544:19108:19121 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid02544:19108:19121 [0] NCCL INFO include/net.h:19 -> 2
+nid07641:7753:7766 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid07641:7753:7766 [0] NCCL INFO include/net.h:19 -> 2
+nid04497:1776:1789 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04497:1776:1789 [0] NCCL INFO include/net.h:19 -> 2
+nid05924:31600:31613 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid05924:31600:31613 [0] NCCL INFO include/net.h:19 -> 2
+nid05923:3679:3692 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid05923:3679:3692 [0] NCCL INFO include/net.h:19 -> 2
+nid02546:12079:12092 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid02546:12079:12092 [0] NCCL INFO include/net.h:19 -> 2
+nid05926:12490:12503 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid05926:12490:12503 [0] NCCL INFO include/net.h:19 -> 2
+nid02543:13784:13807 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid02543:13784:13807 [0] NCCL INFO include/net.h:19 -> 2
+nid04499:28960:28973 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04499:28960:28973 [0] NCCL INFO include/net.h:19 -> 2
+nid05925:15181:15195 [0] NCCL INFO Ring 00 : 11 -> 12 [receive] via NET/Socket/0
+nid04496:22132:22145 [0] NCCL INFO Ring 00 : 3 -> 4 [receive] via NET/Socket/0
+nid07640:13125:13138 [0] NCCL INFO Ring 00 : 13 -> 14 [receive] via NET/Socket/0
+nid02545:14383:14396 [0] NCCL INFO Ring 00 : 1 -> 2 [receive] via NET/Socket/0
+nid02544:19108:19121 [0] NCCL INFO Ring 00 : 0 -> 1 [receive] via NET/Socket/0
+nid07641:7753:7766 [0] NCCL INFO Ring 00 : 14 -> 15 [receive] via NET/Socket/0
+nid04497:1776:1789 [0] NCCL INFO Ring 00 : 4 -> 5 [receive] via NET/Socket/0
+nid05923:3679:3692 [0] NCCL INFO Ring 00 : 9 -> 10 [receive] via NET/Socket/0
+nid02546:12079:12092 [0] NCCL INFO Ring 00 : 2 -> 3 [receive] via NET/Socket/0
+nid05926:12490:12503 [0] NCCL INFO Ring 00 : 12 -> 13 [receive] via NET/Socket/0
+nid05925:15181:15195 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04500:32680:32693 [0] NCCL INFO Ring 00 : 7 -> 8 [receive] via NET/Socket/0
+nid05922:14924:14937 [0] NCCL INFO Ring 00 : 8 -> 9 [receive] via NET/Socket/0
+nid04496:22132:22145 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid07640:13125:13138 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04498:7134:7147 [0] NCCL INFO Ring 00 : 5 -> 6 [receive] via NET/Socket/0
+nid02545:14383:14396 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid02544:19108:19121 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid07641:7753:7766 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04497:1776:1789 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid05924:31600:31613 [0] NCCL INFO Ring 00 : 10 -> 11 [receive] via NET/Socket/0
+nid05923:3679:3692 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid02546:12079:12092 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid05926:12490:12503 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid02543:13784:13807 [0] NCCL INFO Ring 00 : 15 -> 0 [receive] via NET/Socket/0
+nid04500:32680:32693 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid05922:14924:14937 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04498:7134:7147 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid05924:31600:31613 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid02543:13784:13807 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04499:28960:28973 [0] NCCL INFO Ring 00 : 6 -> 7 [receive] via NET/Socket/0
+nid04499:28960:28973 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04500:32680:32693 [0] NCCL INFO Ring 00 : 8 -> 9 [send] via NET/Socket/0
+nid05922:14924:14937 [0] NCCL INFO Ring 00 : 9 -> 10 [send] via NET/Socket/0
+nid07640:13125:13138 [0] NCCL INFO Ring 00 : 14 -> 15 [send] via NET/Socket/0
+nid02545:14383:14396 [0] NCCL INFO Ring 00 : 2 -> 3 [send] via NET/Socket/0
+nid02544:19108:19121 [0] NCCL INFO Ring 00 : 1 -> 2 [send] via NET/Socket/0
+nid07641:7753:7766 [0] NCCL INFO Ring 00 : 15 -> 0 [send] via NET/Socket/0
+nid05923:3679:3692 [0] NCCL INFO Ring 00 : 10 -> 11 [send] via NET/Socket/0
+nid02546:12079:12092 [0] NCCL INFO Ring 00 : 3 -> 4 [send] via NET/Socket/0
+nid05926:12490:12503 [0] NCCL INFO Ring 00 : 13 -> 14 [send] via NET/Socket/0
+nid05925:15181:15195 [0] NCCL INFO Ring 00 : 12 -> 13 [send] via NET/Socket/0
+nid05922:14924:14937 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04496:22132:22145 [0] NCCL INFO Ring 00 : 4 -> 5 [send] via NET/Socket/0
+nid07640:13125:13138 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid07640:13125:13138 [0] NCCL INFO include/net.h:19 -> 2
+nid04498:7134:7147 [0] NCCL INFO Ring 00 : 6 -> 7 [send] via NET/Socket/0
+nid02545:14383:14396 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid02545:14383:14396 [0] NCCL INFO include/net.h:19 -> 2
+nid02544:19108:19121 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid02544:19108:19121 [0] NCCL INFO include/net.h:19 -> 2
+nid04497:1776:1789 [0] NCCL INFO Ring 00 : 5 -> 6 [send] via NET/Socket/0
+nid05924:31600:31613 [0] NCCL INFO Ring 00 : 11 -> 12 [send] via NET/Socket/0
+nid05923:3679:3692 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid05923:3679:3692 [0] NCCL INFO include/net.h:19 -> 2
+nid05926:12490:12503 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid02543:13784:13807 [0] NCCL INFO Ring 00 : 0 -> 1 [send] via NET/Socket/0
+nid05925:15181:15195 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid05925:15181:15195 [0] NCCL INFO include/net.h:19 -> 2
+nid04499:28960:28973 [0] NCCL INFO Ring 00 : 7 -> 8 [send] via NET/Socket/0
+nid05922:14924:14937 [0] NCCL INFO include/net.h:19 -> 2
+nid04496:22132:22145 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04498:7134:7147 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04497:1776:1789 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04497:1776:1789 [0] NCCL INFO include/net.h:19 -> 2
+nid05926:12490:12503 [0] NCCL INFO include/net.h:19 -> 2
+nid02543:13784:13807 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid02543:13784:13807 [0] NCCL INFO include/net.h:19 -> 2
+nid04496:22132:22145 [0] NCCL INFO include/net.h:19 -> 2
+nid04498:7134:7147 [0] NCCL INFO include/net.h:19 -> 2
+nid04500:32680:32693 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04500:32680:32693 [0] NCCL INFO include/net.h:19 -> 2
+nid05925:15181:15195 [0] NCCL INFO Ring 00 : 10 -> 12 [receive] via NET/Socket/0
+nid05922:14924:14937 [0] NCCL INFO Ring 00 : 10 -> 9 [receive] via NET/Socket/0
+nid04496:22132:22145 [0] NCCL INFO Ring 00 : 2 -> 4 [receive] via NET/Socket/0
+nid07640:13125:13138 [0] NCCL INFO Ring 00 : 15 -> 14 [receive] via NET/Socket/0
+nid04498:7134:7147 [0] NCCL INFO Ring 00 : 7 -> 6 [receive] via NET/Socket/0
+nid02545:14383:14396 [0] NCCL INFO Ring 00 : 3 -> 2 [receive] via NET/Socket/0
+nid02544:19108:19121 [0] NCCL INFO Ring 00 : 2 -> 1 [receive] via NET/Socket/0
+nid04497:1776:1789 [0] NCCL INFO Ring 00 : 6 -> 5 [receive] via NET/Socket/0
+nid05923:3679:3692 [0] NCCL INFO Ring 00 : 11 -> 10 [receive] via NET/Socket/0
+nid02546:12079:12092 [0] NCCL INFO Ring 00 : 3 -> 2 [send] via NET/Socket/0
+nid05926:12490:12503 [0] NCCL INFO Ring 00 : 14 -> 13 [receive] via NET/Socket/0
+nid02543:13784:13807 [0] NCCL INFO Ring 00 : 8 -> 0 [receive] via NET/Socket/0
+nid05925:15181:15195 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid05922:14924:14937 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04496:22132:22145 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid07640:13125:13138 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04498:7134:7147 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid02545:14383:14396 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid02544:19108:19121 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid07641:7753:7766 [0] NCCL INFO Ring 00 : 15 -> 14 [send] via NET/Socket/0
+nid04497:1776:1789 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid05924:31600:31613 [0] NCCL INFO Ring 00 : 11 -> 10 [send] via NET/Socket/0
+nid05923:3679:3692 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid02546:12079:12092 [0] NCCL INFO Trees [0] 2->3->-1/-1/-1
+nid05926:12490:12503 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid02543:13784:13807 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid05925:15181:15195 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid05925:15181:15195 [0] NCCL INFO include/net.h:19 -> 2
+nid04500:32680:32693 [0] NCCL INFO Ring 00 : 4 -> 8 [receive] via NET/Socket/0
+nid04496:22132:22145 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid07641:7753:7766 [0] NCCL INFO Trees [0] 14->15->-1/-1/-1
+nid05924:31600:31613 [0] NCCL INFO Trees [0] 10->11->-1/-1/-1
+nid02546:12079:12092 [0] NCCL INFO comm 0x2aab68002260 rank 3 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid04500:32680:32693 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid07641:7753:7766 [0] NCCL INFO comm 0x2aab68002260 rank 15 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid05924:31600:31613 [0] NCCL INFO comm 0x2aab68002260 rank 11 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid04499:28960:28973 [0] NCCL INFO Ring 00 : 7 -> 6 [send] via NET/Socket/0
+nid04500:32680:32693 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04500:32680:32693 [0] NCCL INFO include/net.h:19 -> 2
+nid04496:22132:22145 [0] NCCL INFO include/net.h:19 -> 2
+nid04499:28960:28973 [0] NCCL INFO Trees [0] 6->7->-1/-1/-1
+nid05925:15181:15195 [0] NCCL INFO Ring 00 : 14 -> 12 [receive] via NET/Socket/0
+nid04499:28960:28973 [0] NCCL INFO comm 0x2aab68002260 rank 7 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid04496:22132:22145 [0] NCCL INFO Ring 00 : 6 -> 4 [receive] via NET/Socket/0
+nid02545:14383:14396 [0] NCCL INFO Ring 00 : 2 -> 4 [send] via NET/Socket/0
+nid05923:3679:3692 [0] NCCL INFO Ring 00 : 10 -> 12 [send] via NET/Socket/0
+nid05925:15181:15195 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04496:22132:22145 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid07640:13125:13138 [0] NCCL INFO Ring 00 : 14 -> 12 [send] via NET/Socket/0
+nid04498:7134:7147 [0] NCCL INFO Ring 00 : 6 -> 4 [send] via NET/Socket/0
+nid05923:3679:3692 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid05923:3679:3692 [0] NCCL INFO include/net.h:19 -> 2
+nid04500:32680:32693 [0] NCCL INFO Ring 00 : 12 -> 8 [receive] via NET/Socket/0
+nid07640:13125:13138 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04498:7134:7147 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid02545:14383:14396 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid02545:14383:14396 [0] NCCL INFO include/net.h:19 -> 2
+nid04500:32680:32693 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04498:7134:7147 [0] NCCL INFO include/net.h:19 -> 2
+nid07640:13125:13138 [0] NCCL INFO include/net.h:19 -> 2
+nid05925:15181:15195 [0] NCCL INFO Ring 00 : 12 -> 8 [send] via NET/Socket/0
+nid04496:22132:22145 [0] NCCL INFO Ring 00 : 4 -> 8 [send] via NET/Socket/0
+nid02545:14383:14396 [0] NCCL INFO Ring 00 : 4 -> 2 [receive] via NET/Socket/0
+nid05923:3679:3692 [0] NCCL INFO Ring 00 : 12 -> 10 [receive] via NET/Socket/0
+nid04498:7134:7147 [0] NCCL INFO Ring 00 : 4 -> 6 [receive] via NET/Socket/0
+nid05923:3679:3692 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid05925:15181:15195 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid05925:15181:15195 [0] NCCL INFO include/net.h:19 -> 2
+nid04496:22132:22145 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid07640:13125:13138 [0] NCCL INFO Ring 00 : 12 -> 14 [receive] via NET/Socket/0
+nid04498:7134:7147 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid02545:14383:14396 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04500:32680:32693 [0] NCCL INFO Ring 00 : 8 -> 0 [send] via NET/Socket/0
+nid04496:22132:22145 [0] NCCL INFO include/net.h:19 -> 2
+nid07640:13125:13138 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04500:32680:32693 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04500:32680:32693 [0] NCCL INFO include/net.h:19 -> 2
+nid05925:15181:15195 [0] NCCL INFO Ring 00 : 8 -> 12 [receive] via NET/Socket/0
+nid04496:22132:22145 [0] NCCL INFO Ring 00 : 8 -> 4 [receive] via NET/Socket/0
+nid02545:14383:14396 [0] NCCL INFO Ring 00 : 2 -> 1 [send] via NET/Socket/0
+nid05923:3679:3692 [0] NCCL INFO Ring 00 : 10 -> 9 [send] via NET/Socket/0
+nid05925:15181:15195 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid05922:14924:14937 [0] NCCL INFO Trees [0] 10->9->-1/-1/-1
+nid04496:22132:22145 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid07640:13125:13138 [0] NCCL INFO Ring 00 : 14 -> 13 [send] via NET/Socket/0
+nid04498:7134:7147 [0] NCCL INFO Ring 00 : 6 -> 5 [send] via NET/Socket/0
+nid02544:19108:19121 [0] NCCL INFO Trees [0] 2->1->-1/-1/-1
+nid04497:1776:1789 [0] NCCL INFO Trees [0] 6->5->-1/-1/-1
+nid05926:12490:12503 [0] NCCL INFO Trees [0] 14->13->-1/-1/-1
+nid04500:32680:32693 [0] NCCL INFO Ring 00 : 0 -> 8 [receive] via NET/Socket/0
+nid05922:14924:14937 [0] NCCL INFO comm 0x2aab68002260 rank 9 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid02544:19108:19121 [0] NCCL INFO comm 0x2aab68002260 rank 1 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid04500:32680:32693 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04497:1776:1789 [0] NCCL INFO comm 0x2aab68002260 rank 5 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid02543:13784:13807 [0] NCCL INFO Ring 00 : 0 -> 8 [send] via NET/Socket/0
+nid05926:12490:12503 [0] NCCL INFO comm 0x2aab68002260 rank 13 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid02543:13784:13807 [0] NCCL INFO Trees [0] -1->0->8/-1/-1
+nid02543:13784:13807 [0] NCCL INFO Using 256 threads, Min Comp Cap 6, Trees enabled up to size 299999
+nid02543:13784:13807 [0] NCCL INFO comm 0x2aab70002260 rank 0 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid02543:13784:13784 [0] NCCL INFO Launch mode Parallel
+nid05925:15181:15195 [0] NCCL INFO Ring 00 : 12 -> 10 [send] via NET/Socket/0
+nid04496:22132:22145 [0] NCCL INFO Ring 00 : 4 -> 2 [send] via NET/Socket/0
+nid04500:32680:32693 [0] NCCL INFO Ring 00 : 8 -> 4 [send] via NET/Socket/0
+nid05925:15181:15195 [0] NCCL INFO Ring 00 : 12 -> 14 [send] via NET/Socket/0
+nid04496:22132:22145 [0] NCCL INFO Ring 00 : 4 -> 6 [send] via NET/Socket/0
+nid05923:3679:3692 [0] NCCL INFO Trees [0] 12->10->9/11/-1
+nid07640:13125:13138 [0] NCCL INFO Trees [0] 12->14->13/15/-1
+nid02545:14383:14396 [0] NCCL INFO Trees [0] 4->2->1/3/-1
+nid04500:32680:32693 [0] NCCL INFO Ring 00 : 8 -> 12 [send] via NET/Socket/0
+nid04498:7134:7147 [0] NCCL INFO Trees [0] 4->6->5/7/-1
+nid05923:3679:3692 [0] NCCL INFO comm 0x2aab68002260 rank 10 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid05925:15181:15195 [0] NCCL INFO Trees [0] 8->12->10/14/-1
+nid04500:32680:32693 [0] NCCL INFO Trees [0] 0->8->4/12/-1
+nid04496:22132:22145 [0] NCCL INFO Trees [0] 8->4->2/6/-1
+nid07640:13125:13138 [0] NCCL INFO comm 0x2aab68002260 rank 14 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid04498:7134:7147 [0] NCCL INFO comm 0x2aab68002260 rank 6 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid02545:14383:14396 [0] NCCL INFO comm 0x2aab68002260 rank 2 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid05925:15181:15195 [0] NCCL INFO comm 0x2aab68002260 rank 12 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid04500:32680:32693 [0] NCCL INFO comm 0x2aab68002260 rank 8 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid04496:22132:22145 [0] NCCL INFO comm 0x2aab68002260 rank 4 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid02543:13784:13814 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+NCCL version 2.4.8+cuda10.1
+NCCL version 2.4.8+cuda10.1
+nid04500:32680:32705 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid05922:14924:14942 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid05923:3679:3700 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid02545:14383:14405 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid05925:15181:15206 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid07640:13125:13146 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+NCCL version 2.4.8+cuda10.1
+nid05926:12490:12508 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid02546:12079:12097 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid04496:22132:22156 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid04498:7134:7156 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid07641:7753:7770 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid04497:1776:1794 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid05925:15181:15206 [0] NCCL INFO Channel 00 :    0   1   2   3
+nid05926:12490:12508 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid05926:12490:12508 [0] NCCL INFO include/net.h:19 -> 2
+nid05925:15181:15206 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid05925:15181:15206 [0] NCCL INFO include/net.h:19 -> 2
+nid07640:13125:13146 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid07640:13125:13146 [0] NCCL INFO include/net.h:19 -> 2
+nid07641:7753:7770 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid07641:7753:7770 [0] NCCL INFO include/net.h:19 -> 2
+nid07640:13125:13146 [0] NCCL INFO Ring 00 : 1 -> 2 [receive] via NET/Socket/0
+nid05926:12490:12508 [0] NCCL INFO Ring 00 : 0 -> 1 [receive] via NET/Socket/0
+nid05925:15181:15206 [0] NCCL INFO Ring 00 : 3 -> 0 [receive] via NET/Socket/0
+nid07640:13125:13146 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid07641:7753:7770 [0] NCCL INFO Ring 00 : 2 -> 3 [receive] via NET/Socket/0
+nid05926:12490:12508 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid05925:15181:15206 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid07641:7753:7770 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid05924:31600:31619 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid07640:13125:13146 [0] NCCL INFO Ring 00 : 2 -> 3 [send] via NET/Socket/0
+nid05926:12490:12508 [0] NCCL INFO Ring 00 : 1 -> 2 [send] via NET/Socket/0
+nid07641:7753:7770 [0] NCCL INFO Ring 00 : 3 -> 0 [send] via NET/Socket/0
+nid05925:15181:15206 [0] NCCL INFO Ring 00 : 0 -> 1 [send] via NET/Socket/0
+nid04499:28960:28978 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid04496:22132:22156 [0] NCCL INFO Channel 00 :    0   1   2   3
+nid04499:28960:28978 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04499:28960:28978 [0] NCCL INFO include/net.h:19 -> 2
+nid04496:22132:22156 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04496:22132:22156 [0] NCCL INFO include/net.h:19 -> 2
+nid07640:13125:13146 [0] NCCL INFO comm 0x2aab6c001c20 rank 2 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid04498:7134:7156 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04498:7134:7156 [0] NCCL INFO include/net.h:19 -> 2
+nid02544:19108:19126 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid07641:7753:7770 [0] NCCL INFO comm 0x2aab6c001c20 rank 3 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid04497:1776:1794 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04497:1776:1794 [0] NCCL INFO include/net.h:19 -> 2
+nid04499:28960:28978 [0] NCCL INFO Ring 00 : 2 -> 3 [receive] via NET/Socket/0
+nid04496:22132:22156 [0] NCCL INFO Ring 00 : 3 -> 0 [receive] via NET/Socket/0
+nid04498:7134:7156 [0] NCCL INFO Ring 00 : 1 -> 2 [receive] via NET/Socket/0
+nid04497:1776:1794 [0] NCCL INFO Ring 00 : 0 -> 1 [receive] via NET/Socket/0
+nid04499:28960:28978 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04496:22132:22156 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04498:7134:7156 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid02545:14383:14405 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid02545:14383:14405 [0] NCCL INFO include/net.h:19 -> 2
+nid02544:19108:19126 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid02544:19108:19126 [0] NCCL INFO include/net.h:19 -> 2
+nid04497:1776:1794 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid02546:12079:12097 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid02546:12079:12097 [0] NCCL INFO include/net.h:19 -> 2
+nid02543:13784:13814 [0] NCCL INFO Channel 00 :    0   1   2   3
+nid05925:15181:15206 [0] NCCL INFO Using 256 threads, Min Comp Cap 6, Trees disabled
+nid04499:28960:28978 [0] NCCL INFO Ring 00 : 3 -> 0 [send] via NET/Socket/0
+nid04496:22132:22156 [0] NCCL INFO Ring 00 : 0 -> 1 [send] via NET/Socket/0
+nid04498:7134:7156 [0] NCCL INFO Ring 00 : 2 -> 3 [send] via NET/Socket/0
+nid04497:1776:1794 [0] NCCL INFO Ring 00 : 1 -> 2 [send] via NET/Socket/0
+nid02543:13784:13814 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid02543:13784:13814 [0] NCCL INFO include/net.h:19 -> 2
+nid04499:28960:28978 [0] NCCL INFO comm 0x2aab6c001c20 rank 3 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid04496:22132:22156 [0] NCCL INFO Using 256 threads, Min Comp Cap 6, Trees disabled
+nid04498:7134:7156 [0] NCCL INFO comm 0x2aab6c001c20 rank 2 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid04497:1776:1794 [0] NCCL INFO comm 0x2aab6c001c20 rank 1 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid05926:12490:12508 [0] NCCL INFO comm 0x2aab6c001c20 rank 1 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid05925:15181:15206 [0] NCCL INFO comm 0x2aab70001c20 rank 0 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid04496:22132:22156 [0] NCCL INFO comm 0x2aab70001c20 rank 0 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid02545:14383:14405 [0] NCCL INFO Ring 00 : 1 -> 2 [receive] via NET/Socket/0
+nid02544:19108:19126 [0] NCCL INFO Ring 00 : 0 -> 1 [receive] via NET/Socket/0
+nid02546:12079:12097 [0] NCCL INFO Ring 00 : 2 -> 3 [receive] via NET/Socket/0
+nid02543:13784:13814 [0] NCCL INFO Ring 00 : 3 -> 0 [receive] via NET/Socket/0
+nid05925:15181:15181 [0] NCCL INFO Launch mode Parallel
+nid04496:22132:22132 [0] NCCL INFO Launch mode Parallel
+nid02545:14383:14405 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid02544:19108:19126 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid02546:12079:12097 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid02543:13784:13814 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid02545:14383:14405 [0] NCCL INFO Ring 00 : 2 -> 3 [send] via NET/Socket/0
+nid02544:19108:19126 [0] NCCL INFO Ring 00 : 1 -> 2 [send] via NET/Socket/0
+nid02546:12079:12097 [0] NCCL INFO Ring 00 : 3 -> 0 [send] via NET/Socket/0
+nid02545:14383:14405 [0] NCCL INFO comm 0x2aab6c001c20 rank 2 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid02544:19108:19126 [0] NCCL INFO comm 0x2aab6c001c20 rank 1 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid02546:12079:12097 [0] NCCL INFO comm 0x2aab6c001c20 rank 3 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid02543:13784:13814 [0] NCCL INFO Ring 00 : 0 -> 1 [send] via NET/Socket/0
+NCCL version 2.4.8+cuda10.1
+NCCL version 2.4.8+cuda10.1
+NCCL version 2.4.8+cuda10.1
+nid02543:13784:13814 [0] NCCL INFO Using 256 threads, Min Comp Cap 6, Trees disabled
+nid02543:13784:13814 [0] NCCL INFO comm 0x2aab74001c20 rank 0 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid02543:13784:13784 [0] NCCL INFO Launch mode Parallel
+nid04500:32680:32705 [0] NCCL INFO Channel 00 :    0   1   2   3
+nid05923:3679:3700 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid05923:3679:3700 [0] NCCL INFO include/net.h:19 -> 2
+nid04500:32680:32705 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid05922:14924:14942 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid05922:14924:14942 [0] NCCL INFO include/net.h:19 -> 2
+nid05924:31600:31619 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid05924:31600:31619 [0] NCCL INFO include/net.h:19 -> 2
+nid04500:32680:32705 [0] NCCL INFO include/net.h:19 -> 2
+nid05923:3679:3700 [0] NCCL INFO Ring 00 : 1 -> 2 [receive] via NET/Socket/0
+nid04500:32680:32705 [0] NCCL INFO Ring 00 : 3 -> 0 [receive] via NET/Socket/0
+nid05922:14924:14942 [0] NCCL INFO Ring 00 : 0 -> 1 [receive] via NET/Socket/0
+nid05924:31600:31619 [0] NCCL INFO Ring 00 : 2 -> 3 [receive] via NET/Socket/0
+nid05923:3679:3700 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04500:32680:32705 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid05922:14924:14942 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid05924:31600:31619 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid05923:3679:3700 [0] NCCL INFO Ring 00 : 2 -> 3 [send] via NET/Socket/0
+nid04500:32680:32705 [0] NCCL INFO Ring 00 : 0 -> 1 [send] via NET/Socket/0
+nid05924:31600:31619 [0] NCCL INFO Ring 00 : 3 -> 0 [send] via NET/Socket/0
+nid05922:14924:14942 [0] NCCL INFO Ring 00 : 1 -> 2 [send] via NET/Socket/0
+nid04500:32680:32705 [0] NCCL INFO Using 256 threads, Min Comp Cap 6, Trees disabled
+nid04500:32680:32705 [0] NCCL INFO comm 0x2aab70001c20 rank 0 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid04500:32680:32680 [0] NCCL INFO Launch mode Parallel
+nid05922:14924:14942 [0] NCCL INFO comm 0x2aab6c001c20 rank 1 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid05924:31600:31619 [0] NCCL INFO comm 0x2aab6c001c20 rank 3 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid05923:3679:3700 [0] NCCL INFO comm 0x2aab6c001c20 rank 2 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid04499:28960:28981 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid02545:14383:14408 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid02546:12079:12100 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid07640:13125:13149 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid04498:7134:7160 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid07641:7753:7772 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid02543:13784:13818 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid05925:15181:15209 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid04496:22132:22159 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid02544:19108:19130 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid04497:1776:1800 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid05926:12490:12512 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid04500:32680:32708 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid05924:31600:31621 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid05923:3679:3703 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid05922:14924:14945 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid02545:14383:14408 [0] NCCL INFO Channel 00 :    0   1   2   3
+nid02546:12079:12100 [0] NCCL INFO Channel 00 :    0   1   2   3
+nid02543:13784:13818 [0] NCCL INFO Channel 00 :    0   1   2   3
+nid05925:15181:15209 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid05925:15181:15209 [0] NCCL INFO include/net.h:19 -> 2
+nid04500:32680:32708 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04500:32680:32708 [0] NCCL INFO include/net.h:19 -> 2
+nid04496:22132:22159 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04496:22132:22159 [0] NCCL INFO include/net.h:19 -> 2
+nid02543:13784:13818 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04499:28960:28981 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04499:28960:28981 [0] NCCL INFO include/net.h:19 -> 2
+nid07641:7753:7772 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid07641:7753:7772 [0] NCCL INFO include/net.h:19 -> 2
+nid05924:31600:31621 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid05924:31600:31621 [0] NCCL INFO include/net.h:19 -> 2
+nid02546:12079:12100 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid02543:13784:13818 [0] NCCL INFO include/net.h:19 -> 2
+nid07640:13125:13149 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid07640:13125:13149 [0] NCCL INFO include/net.h:19 -> 2
+nid04498:7134:7160 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04498:7134:7160 [0] NCCL INFO include/net.h:19 -> 2
+nid02545:14383:14408 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid05923:3679:3703 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid05923:3679:3703 [0] NCCL INFO include/net.h:19 -> 2
+nid02546:12079:12100 [0] NCCL INFO include/net.h:19 -> 2
+nid02545:14383:14408 [0] NCCL INFO include/net.h:19 -> 2
+nid02544:19108:19130 [0] NCCL INFO Channel 00 :    0   1   2   3
+nid04500:32680:32708 [0] NCCL INFO Ring 00 : 1 -> 2 [receive] via NET/Socket/0
+nid05922:14924:14945 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid05922:14924:14945 [0] NCCL INFO include/net.h:19 -> 2
+nid04496:22132:22159 [0] NCCL INFO Ring 00 : 0 -> 1 [receive] via NET/Socket/0
+nid02544:19108:19130 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04497:1776:1800 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04497:1776:1800 [0] NCCL INFO include/net.h:19 -> 2
+nid05926:12490:12512 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid05926:12490:12512 [0] NCCL INFO include/net.h:19 -> 2
+nid05925:15181:15209 [0] NCCL INFO Ring 00 : 2 -> 3 [receive] via NET/Socket/0
+nid04500:32680:32708 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04496:22132:22159 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid02544:19108:19130 [0] NCCL INFO include/net.h:19 -> 2
+nid02546:12079:12100 [0] NCCL INFO Ring 00 : 3 -> 0 [receive] via NET/Socket/0
+nid02543:13784:13818 [0] NCCL INFO Ring 00 : 3 -> 0 [receive] via NET/Socket/0
+nid05925:15181:15209 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04499:28960:28981 [0] NCCL INFO Ring 00 : 0 -> 1 [receive] via NET/Socket/0
+nid04498:7134:7160 [0] NCCL INFO Ring 00 : 0 -> 1 [receive] via NET/Socket/0
+nid02545:14383:14408 [0] NCCL INFO Ring 00 : 3 -> 0 [receive] via NET/Socket/0
+nid07641:7753:7772 [0] NCCL INFO Ring 00 : 2 -> 3 [receive] via NET/Socket/0
+nid05924:31600:31621 [0] NCCL INFO Ring 00 : 1 -> 2 [receive] via NET/Socket/0
+nid05923:3679:3703 [0] NCCL INFO Ring 00 : 1 -> 2 [receive] via NET/Socket/0
+nid02546:12079:12100 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid02543:13784:13818 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04499:28960:28981 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid07640:13125:13149 [0] NCCL INFO Ring 00 : 2 -> 3 [receive] via NET/Socket/0
+nid04498:7134:7160 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid02545:14383:14408 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid07641:7753:7772 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid05924:31600:31621 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid05923:3679:3703 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid07640:13125:13149 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid05922:14924:14945 [0] NCCL INFO Ring 00 : 1 -> 2 [receive] via NET/Socket/0
+nid02544:19108:19130 [0] NCCL INFO Ring 00 : 3 -> 0 [receive] via NET/Socket/0
+nid04497:1776:1800 [0] NCCL INFO Ring 00 : 0 -> 1 [receive] via NET/Socket/0
+nid05926:12490:12512 [0] NCCL INFO Ring 00 : 2 -> 3 [receive] via NET/Socket/0
+nid04500:32680:32708 [0] NCCL INFO Ring 00 : 2 -> 3 [send] via NET/Socket/0
+nid05922:14924:14945 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid02544:19108:19130 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04497:1776:1800 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid05926:12490:12512 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid05925:15181:15209 [0] NCCL INFO Ring 00 : 3 -> 0 [send] via NET/Socket/0
+nid04499:28960:28981 [0] NCCL INFO Ring 00 : 1 -> 2 [send] via NET/Socket/0
+nid04496:22132:22159 [0] NCCL INFO Ring 00 : 1 -> 2 [send] via NET/Socket/0
+nid04498:7134:7160 [0] NCCL INFO Ring 00 : 1 -> 2 [send] via NET/Socket/0
+nid02545:14383:14408 [0] NCCL INFO Ring 00 : 0 -> 1 [send] via NET/Socket/0
+nid07641:7753:7772 [0] NCCL INFO Ring 00 : 3 -> 0 [send] via NET/Socket/0
+nid05924:31600:31621 [0] NCCL INFO Ring 00 : 2 -> 3 [send] via NET/Socket/0
+nid05923:3679:3703 [0] NCCL INFO Ring 00 : 2 -> 3 [send] via NET/Socket/0
+nid02546:12079:12100 [0] NCCL INFO Ring 00 : 0 -> 1 [send] via NET/Socket/0
+nid02543:13784:13818 [0] NCCL INFO Ring 00 : 0 -> 1 [send] via NET/Socket/0
+nid07640:13125:13149 [0] NCCL INFO Ring 00 : 3 -> 0 [send] via NET/Socket/0
+nid02546:12079:12100 [0] NCCL INFO Using 256 threads, Min Comp Cap 6, Trees disabled
+nid02543:13784:13818 [0] NCCL INFO Using 256 threads, Min Comp Cap 6, Trees disabled
+nid05925:15181:15209 [0] NCCL INFO comm 0x2aab6c001c20 rank 3 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid04499:28960:28981 [0] NCCL INFO comm 0x2aab70001c20 rank 1 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid04500:32680:32708 [0] NCCL INFO comm 0x2aab6c001c20 rank 2 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid04496:22132:22159 [0] NCCL INFO comm 0x2aab6c001c20 rank 1 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid04498:7134:7160 [0] NCCL INFO comm 0x2aab70001c20 rank 1 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid02545:14383:14408 [0] NCCL INFO Using 256 threads, Min Comp Cap 6, Trees disabled
+nid07641:7753:7772 [0] NCCL INFO comm 0x2aab6c02ddb0 rank 3 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid05924:31600:31621 [0] NCCL INFO comm 0x2aab6c02ddb0 rank 2 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid05923:3679:3703 [0] NCCL INFO comm 0x2aab6c02ddb0 rank 2 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid02546:12079:12100 [0] NCCL INFO comm 0x2aab70001c20 rank 0 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid02543:13784:13818 [0] NCCL INFO comm 0x2aab78001c20 rank 0 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid05922:14924:14945 [0] NCCL INFO Ring 00 : 2 -> 3 [send] via NET/Socket/0
+nid07640:13125:13149 [0] NCCL INFO comm 0x2aab70001c20 rank 3 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid02545:14383:14408 [0] NCCL INFO comm 0x2aab70001c20 rank 0 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid04497:1776:1800 [0] NCCL INFO Ring 00 : 1 -> 2 [send] via NET/Socket/0
+nid02546:12079:12079 [0] NCCL INFO Launch mode Parallel
+nid05926:12490:12512 [0] NCCL INFO Ring 00 : 3 -> 0 [send] via NET/Socket/0
+nid02543:13784:13784 [0] NCCL INFO Launch mode Parallel
+nid02545:14383:14383 [0] NCCL INFO Launch mode Parallel
+nid02544:19108:19130 [0] NCCL INFO Ring 00 : 0 -> 1 [send] via NET/Socket/0
+nid05922:14924:14945 [0] NCCL INFO comm 0x2aab70001c20 rank 2 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid02544:19108:19130 [0] NCCL INFO Using 256 threads, Min Comp Cap 6, Trees disabled
+nid04497:1776:1800 [0] NCCL INFO comm 0x2aab70001c20 rank 1 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid05926:12490:12512 [0] NCCL INFO comm 0x2aab70001c20 rank 3 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid02544:19108:19130 [0] NCCL INFO comm 0x2aab74001c20 rank 0 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid02544:19108:19108 [0] NCCL INFO Launch mode Parallel
+Duration/ms: 262.3485398197174

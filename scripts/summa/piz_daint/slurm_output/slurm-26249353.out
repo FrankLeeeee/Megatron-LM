@@ -1,0 +1,33 @@
+nid04263:3119:3119 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.48.200<0>
+nid04263:3119:3119 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid04263:3119:3119 [0] NCCL INFO NET/IB : No device found.
+nid04263:3119:3119 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.48.200<0>
+NCCL version 2.4.8+cuda10.1
+nid04263:3119:3132 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid04263:3119:3132 [0] NCCL INFO Using 256 threads, Min Comp Cap 6, Trees enabled up to size -2
+nid04263:3119:3132 [0] NCCL INFO comm 0x2aab70002260 rank 0 nranks 1 cudaDev 0 nvmlDev 0 - Init COMPLETE
+Duration/ms: 0.9117104023694992
+
+
+Batch Job Summary Report (version 20.09.1) for Job "summa_pytorch" (26249353) on daint
+Job information (1/3)
+-----------------------------------------------------------------------------------------------------
+             Submit            Eligible               Start                 End    Elapsed Time limit
+------------------- ------------------- ------------------- ------------------- ---------- ----------
+2020-10-14T12:53:40 2020-10-14T12:53:40 2020-10-14T12:57:31 2020-10-14T12:58:06   00:00:35   00:15:00
+-----------------------------------------------------------------------------------------------------
+
+Job information (2/3)
+-------------------------------------------------------------
+    Username      Account    Partition   NNodes        Energy
+------------ ------------ ------------ -------- -------------
+    youyang9        s1054       normal        1      1.205 kJ
+
+Job information (3/3) - GPU utilization data
+---------------------------------------------------
+   Node name       Usage     Max mem Execution time
+------------ ----------- ----------- --------------
+    nid04263         3 %      775 MB       00:00:04
+

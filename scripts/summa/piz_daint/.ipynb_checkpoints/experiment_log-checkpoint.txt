@@ -1,0 +1,9 @@
+jobid, #nodes, method
+26247727, 16, megatron
+26247728, 16, summa
+26247743, 64, summa
+26247744, 64, megatron
+26247748, 4, megatron
+26247749, 4, summa
+26247756, 1, meagtron
+26247755, 1, summa

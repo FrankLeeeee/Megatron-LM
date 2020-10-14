@@ -1,0 +1,17 @@
+nid04268:10041:10041 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.48.205<0>
+nid04268:10041:10041 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid04268:10041:10041 [0] NCCL INFO NET/IB : No device found.
+nid04268:10041:10041 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.48.205<0>
+NCCL version 2.4.8+cuda10.1
+nid04268:10041:10056 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid04268:10041:10056 [0] NCCL INFO Using 256 threads, Min Comp Cap 6, Trees enabled up to size -2
+nid04268:10041:10056 [0] NCCL INFO comm 0x2aab70002260 rank 0 nranks 1 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid04268:10041:10058 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid04268:10041:10058 [0] NCCL INFO Using 256 threads, Min Comp Cap 6, Trees enabled up to size -2
+nid04268:10041:10058 [0] NCCL INFO comm 0x2aab50001c70 rank 0 nranks 1 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid04268:10041:10060 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid04268:10041:10060 [0] NCCL INFO Using 256 threads, Min Comp Cap 6, Trees enabled up to size -2
+nid04268:10041:10060 [0] NCCL INFO comm 0x2aab70006f20 rank 0 nranks 1 cudaDev 0 nvmlDev 0 - Init COMPLETE
+Duration/ms: 0.6766307199001312
