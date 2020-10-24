@@ -1,0 +1,619 @@
+nid03044:27229:27229 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.43.251<0>
+nid03044:27229:27229 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid03044:27229:27229 [0] NCCL INFO NET/IB : No device found.
+nid03044:27229:27229 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.43.251<0>
+NCCL version 2.4.8+cuda10.1
+nid03044:27229:27252 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid03059:12588:12588 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.44.12<0>
+nid03389:4819:4819 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.45.88<0>
+nid04134:5320:5320 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.48.71<0>
+nid04134:5320:5320 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+nid04331:2444:2444 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.49.14<0>
+nid04366:4883:4883 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.49.49<0>
+nid04346:29444:29444 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.49.29<0>
+nid03059:12588:12588 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid03059:12588:12588 [0] NCCL INFO NET/IB : No device found.
+nid03059:12588:12588 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.44.12<0>
+nid03059:12588:12601 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid04134:5320:5320 [0] NCCL INFO NET/IB : No device found.
+nid04134:5320:5320 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.48.71<0>
+nid03389:4819:4819 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid03389:4819:4819 [0] NCCL INFO NET/IB : No device found.
+nid03389:4819:4819 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.45.88<0>
+nid03389:4819:4832 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid04367:3391:3391 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.49.50<0>
+nid04367:3391:3391 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+nid04134:5320:5333 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid04330:25507:25507 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.49.13<0>
+nid03045:16224:16224 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.43.252<0>
+nid03392:17358:17358 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.45.91<0>
+nid04345:10897:10897 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.49.28<0>
+nid03392:17358:17358 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+nid04331:2444:2444 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid04331:2444:2444 [0] NCCL INFO NET/IB : No device found.
+nid04331:2444:2444 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.49.14<0>
+nid04331:2444:2457 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid03058:25825:25825 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.44.11<0>
+nid04346:29444:29444 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+nid04366:4883:4883 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+nid04346:29444:29444 [0] NCCL INFO NET/IB : No device found.
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid04366:4883:4883 [0] NCCL INFO NET/IB : No device found.
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid04346:29444:29444 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.49.29<0>
+nid04366:4883:4883 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.49.49<0>
+nid04366:4883:4896 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid03393:19543:19543 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.45.92<0>
+nid04346:29444:29456 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid04367:3391:3391 [0] NCCL INFO NET/IB : No device found.
+nid04367:3391:3391 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.49.50<0>
+nid03388:12253:12253 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.45.87<0>
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid03392:17358:17358 [0] NCCL INFO NET/IB : No device found.
+nid03392:17358:17358 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.45.91<0>
+nid04367:3391:3404 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid04133:7061:7061 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.48.70<0>
+nid04133:7061:7061 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+nid03045:16224:16224 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+nid04345:10897:10897 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+nid04330:25507:25507 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+nid03045:16224:16224 [0] NCCL INFO NET/IB : No device found.
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+nid04345:10897:10897 [0] NCCL INFO NET/IB : No device found.
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid04330:25507:25507 [0] NCCL INFO NET/IB : No device found.
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid03045:16224:16224 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.43.252<0>
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid04345:10897:10897 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.49.28<0>
+nid04330:25507:25507 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.49.13<0>
+nid03045:16224:16236 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid03392:17358:17371 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid04330:25507:25519 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid04345:10897:10910 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid03058:25825:25825 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid03058:25825:25825 [0] NCCL INFO NET/IB : No device found.
+nid03058:25825:25825 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.44.11<0>
+nid03058:25825:25838 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid03393:19543:19543 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid03393:19543:19543 [0] NCCL INFO NET/IB : No device found.
+nid03393:19543:19543 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.45.92<0>
+nid03393:19543:19555 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid04133:7061:7061 [0] NCCL INFO NET/IB : No device found.
+nid04133:7061:7061 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.48.70<0>
+nid03388:12253:12253 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid03388:12253:12253 [0] NCCL INFO NET/IB : No device found.
+nid03388:12253:12253 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.45.87<0>
+nid03388:12253:12266 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid04133:7061:7073 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid04367:3391:3404 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04367:3391:3404 [0] NCCL INFO include/net.h:19 -> 2
+nid04367:3391:3404 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid03044:27229:27252 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid03044:27229:27252 [0] NCCL INFO include/net.h:19 -> 2
+nid03044:27229:27252 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid04134:5320:5333 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04134:5320:5333 [0] NCCL INFO include/net.h:19 -> 2
+nid04133:7061:7073 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04133:7061:7073 [0] NCCL INFO include/net.h:19 -> 2
+nid04133:7061:7073 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid03392:17358:17371 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid03392:17358:17371 [0] NCCL INFO include/net.h:19 -> 2
+nid04346:29444:29456 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04346:29444:29456 [0] NCCL INFO include/net.h:19 -> 2
+nid04346:29444:29456 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid03045:16224:16236 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid03045:16224:16236 [0] NCCL INFO include/net.h:19 -> 2
+nid03045:16224:16236 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid04345:10897:10910 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04345:10897:10910 [0] NCCL INFO include/net.h:19 -> 2
+nid03388:12253:12266 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid03388:12253:12266 [0] NCCL INFO include/net.h:19 -> 2
+nid03389:4819:4832 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid03389:4819:4832 [0] NCCL INFO include/net.h:19 -> 2
+nid03059:12588:12601 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid03059:12588:12601 [0] NCCL INFO include/net.h:19 -> 2
+nid03059:12588:12601 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid04331:2444:2457 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04331:2444:2457 [0] NCCL INFO include/net.h:19 -> 2
+nid03058:25825:25838 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid03058:25825:25838 [0] NCCL INFO include/net.h:19 -> 2
+nid04330:25507:25519 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04330:25507:25519 [0] NCCL INFO include/net.h:19 -> 2
+nid04330:25507:25519 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid03393:19543:19555 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid03393:19543:19555 [0] NCCL INFO include/net.h:19 -> 2
+nid04366:4883:4896 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04366:4883:4896 [0] NCCL INFO include/net.h:19 -> 2
+nid04366:4883:4896 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid04134:5320:5333 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid03392:17358:17371 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid04345:10897:10910 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid03388:12253:12266 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid03389:4819:4832 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid04331:2444:2457 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid03058:25825:25838 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid03393:19543:19555 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid03044:27229:27252 [0] NCCL INFO Channel 00 :    0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15
+nid04345:10897:10910 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04345:10897:10910 [0] NCCL INFO include/net.h:19 -> 2
+nid04134:5320:5333 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04134:5320:5333 [0] NCCL INFO include/net.h:19 -> 2
+nid04133:7061:7073 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04133:7061:7073 [0] NCCL INFO include/net.h:19 -> 2
+nid03392:17358:17371 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid03392:17358:17371 [0] NCCL INFO include/net.h:19 -> 2
+nid04367:3391:3404 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04367:3391:3404 [0] NCCL INFO include/net.h:19 -> 2
+nid03044:27229:27252 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04346:29444:29456 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04346:29444:29456 [0] NCCL INFO include/net.h:19 -> 2
+nid03045:16224:16236 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid03045:16224:16236 [0] NCCL INFO include/net.h:19 -> 2
+nid03388:12253:12266 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid03388:12253:12266 [0] NCCL INFO include/net.h:19 -> 2
+nid03389:4819:4832 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid03389:4819:4832 [0] NCCL INFO include/net.h:19 -> 2
+nid03059:12588:12601 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid03059:12588:12601 [0] NCCL INFO include/net.h:19 -> 2
+nid04331:2444:2457 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04331:2444:2457 [0] NCCL INFO include/net.h:19 -> 2
+nid03058:25825:25838 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid03058:25825:25838 [0] NCCL INFO include/net.h:19 -> 2
+nid04330:25507:25519 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04330:25507:25519 [0] NCCL INFO include/net.h:19 -> 2
+nid03393:19543:19555 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid03393:19543:19555 [0] NCCL INFO include/net.h:19 -> 2
+nid04366:4883:4896 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04366:4883:4896 [0] NCCL INFO include/net.h:19 -> 2
+nid03044:27229:27252 [0] NCCL INFO include/net.h:19 -> 2
+nid04367:3391:3404 [0] NCCL INFO Ring 00 : 14 -> 15 [receive] via NET/Socket/0
+nid03044:27229:27252 [0] NCCL INFO Ring 00 : 15 -> 0 [receive] via NET/Socket/0
+nid04346:29444:29456 [0] NCCL INFO Ring 00 : 12 -> 13 [receive] via NET/Socket/0
+nid04345:10897:10910 [0] NCCL INFO Ring 00 : 11 -> 12 [receive] via NET/Socket/0
+nid03389:4819:4832 [0] NCCL INFO Ring 00 : 4 -> 5 [receive] via NET/Socket/0
+nid03059:12588:12601 [0] NCCL INFO Ring 00 : 2 -> 3 [receive] via NET/Socket/0
+nid04331:2444:2457 [0] NCCL INFO Ring 00 : 10 -> 11 [receive] via NET/Socket/0
+nid03058:25825:25838 [0] NCCL INFO Ring 00 : 1 -> 2 [receive] via NET/Socket/0
+nid04330:25507:25519 [0] NCCL INFO Ring 00 : 9 -> 10 [receive] via NET/Socket/0
+nid03393:19543:19555 [0] NCCL INFO Ring 00 : 6 -> 7 [receive] via NET/Socket/0
+nid04366:4883:4896 [0] NCCL INFO Ring 00 : 13 -> 14 [receive] via NET/Socket/0
+nid04134:5320:5333 [0] NCCL INFO Ring 00 : 8 -> 9 [receive] via NET/Socket/0
+nid04133:7061:7073 [0] NCCL INFO Ring 00 : 7 -> 8 [receive] via NET/Socket/0
+nid03392:17358:17371 [0] NCCL INFO Ring 00 : 5 -> 6 [receive] via NET/Socket/0
+nid04367:3391:3404 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid03044:27229:27252 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04346:29444:29456 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid03045:16224:16236 [0] NCCL INFO Ring 00 : 0 -> 1 [receive] via NET/Socket/0
+nid04345:10897:10910 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid03388:12253:12266 [0] NCCL INFO Ring 00 : 3 -> 4 [receive] via NET/Socket/0
+nid03389:4819:4832 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid03059:12588:12601 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04331:2444:2457 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid03058:25825:25838 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04330:25507:25519 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid03393:19543:19555 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04366:4883:4896 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04134:5320:5333 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04133:7061:7073 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid03392:17358:17371 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid03045:16224:16236 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid03388:12253:12266 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04134:5320:5333 [0] NCCL INFO Ring 00 : 9 -> 10 [send] via NET/Socket/0
+nid04345:10897:10910 [0] NCCL INFO Ring 00 : 12 -> 13 [send] via NET/Socket/0
+nid03058:25825:25838 [0] NCCL INFO Ring 00 : 2 -> 3 [send] via NET/Socket/0
+nid03393:19543:19555 [0] NCCL INFO Ring 00 : 7 -> 8 [send] via NET/Socket/0
+nid03392:17358:17371 [0] NCCL INFO Ring 00 : 6 -> 7 [send] via NET/Socket/0
+nid04367:3391:3404 [0] NCCL INFO Ring 00 : 15 -> 0 [send] via NET/Socket/0
+nid03044:27229:27252 [0] NCCL INFO Ring 00 : 0 -> 1 [send] via NET/Socket/0
+nid04346:29444:29456 [0] NCCL INFO Ring 00 : 13 -> 14 [send] via NET/Socket/0
+nid03045:16224:16236 [0] NCCL INFO Ring 00 : 1 -> 2 [send] via NET/Socket/0
+nid03388:12253:12266 [0] NCCL INFO Ring 00 : 4 -> 5 [send] via NET/Socket/0
+nid03389:4819:4832 [0] NCCL INFO Ring 00 : 5 -> 6 [send] via NET/Socket/0
+nid03059:12588:12601 [0] NCCL INFO Ring 00 : 3 -> 4 [send] via NET/Socket/0
+nid04331:2444:2457 [0] NCCL INFO Ring 00 : 11 -> 12 [send] via NET/Socket/0
+nid04330:25507:25519 [0] NCCL INFO Ring 00 : 10 -> 11 [send] via NET/Socket/0
+nid04366:4883:4896 [0] NCCL INFO Ring 00 : 14 -> 15 [send] via NET/Socket/0
+nid04133:7061:7073 [0] NCCL INFO Ring 00 : 8 -> 9 [send] via NET/Socket/0
+nid03392:17358:17371 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid03392:17358:17371 [0] NCCL INFO include/net.h:19 -> 2
+nid03044:27229:27252 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04346:29444:29456 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04346:29444:29456 [0] NCCL INFO include/net.h:19 -> 2
+nid03045:16224:16236 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04345:10897:10910 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04345:10897:10910 [0] NCCL INFO include/net.h:19 -> 2
+nid03058:25825:25838 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid03058:25825:25838 [0] NCCL INFO include/net.h:19 -> 2
+nid04330:25507:25519 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04330:25507:25519 [0] NCCL INFO include/net.h:19 -> 2
+nid04366:4883:4896 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04134:5320:5333 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04134:5320:5333 [0] NCCL INFO include/net.h:19 -> 2
+nid04133:7061:7073 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid03044:27229:27252 [0] NCCL INFO include/net.h:19 -> 2
+nid03045:16224:16236 [0] NCCL INFO include/net.h:19 -> 2
+nid03388:12253:12266 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid03388:12253:12266 [0] NCCL INFO include/net.h:19 -> 2
+nid03389:4819:4832 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid03389:4819:4832 [0] NCCL INFO include/net.h:19 -> 2
+nid04366:4883:4896 [0] NCCL INFO include/net.h:19 -> 2
+nid04133:7061:7073 [0] NCCL INFO include/net.h:19 -> 2
+nid03392:17358:17371 [0] NCCL INFO Ring 00 : 7 -> 6 [receive] via NET/Socket/0
+nid03044:27229:27252 [0] NCCL INFO Ring 00 : 8 -> 0 [receive] via NET/Socket/0
+nid04346:29444:29456 [0] NCCL INFO Ring 00 : 14 -> 13 [receive] via NET/Socket/0
+nid04345:10897:10910 [0] NCCL INFO Ring 00 : 10 -> 12 [receive] via NET/Socket/0
+nid03389:4819:4832 [0] NCCL INFO Ring 00 : 6 -> 5 [receive] via NET/Socket/0
+nid03058:25825:25838 [0] NCCL INFO Ring 00 : 3 -> 2 [receive] via NET/Socket/0
+nid04330:25507:25519 [0] NCCL INFO Ring 00 : 11 -> 10 [receive] via NET/Socket/0
+nid04366:4883:4896 [0] NCCL INFO Ring 00 : 15 -> 14 [receive] via NET/Socket/0
+nid04134:5320:5333 [0] NCCL INFO Ring 00 : 10 -> 9 [receive] via NET/Socket/0
+nid03392:17358:17371 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04367:3391:3404 [0] NCCL INFO Ring 00 : 15 -> 14 [send] via NET/Socket/0
+nid03044:27229:27252 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04346:29444:29456 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid03045:16224:16236 [0] NCCL INFO Ring 00 : 2 -> 1 [receive] via NET/Socket/0
+nid04345:10897:10910 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid03388:12253:12266 [0] NCCL INFO Ring 00 : 2 -> 4 [receive] via NET/Socket/0
+nid03389:4819:4832 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04331:2444:2457 [0] NCCL INFO Ring 00 : 11 -> 10 [send] via NET/Socket/0
+nid03058:25825:25838 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04330:25507:25519 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid03393:19543:19555 [0] NCCL INFO Ring 00 : 7 -> 6 [send] via NET/Socket/0
+nid04366:4883:4896 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04134:5320:5333 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04133:7061:7073 [0] NCCL INFO Ring 00 : 4 -> 8 [receive] via NET/Socket/0
+nid04367:3391:3404 [0] NCCL INFO Trees [0] 14->15->-1/-1/-1
+nid03045:16224:16236 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04345:10897:10910 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid03388:12253:12266 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid03059:12588:12601 [0] NCCL INFO Ring 00 : 3 -> 2 [send] via NET/Socket/0
+Traceback (most recent call last):
+  File "main.py", line 50, in <module>
+    main()
+  File "main.py", line 46, in main
+    run(**args_dict)
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 260, in megatron_mlp_run
+    mlp = ParallelMLP(hidden_size=hidden_dim, world_size=world_size).cuda()
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 203, in __init__
+    self.dense_h_to_4h = ColumnParallelLinear(
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 75, in __init__
+    self.weight = Parameter(torch.Tensor(self.output_size_per_partition,
+RuntimeError: [enforce fail at CPUAllocator.cpp:64] . DefaultCPUAllocator: can't allocate memory: you tried to allocate 65536000000 bytes. Error code 12 (Cannot allocate memory)
+nid04331:2444:2457 [0] NCCL INFO Trees [0] 10->11->-1/-1/-1
+nid03393:19543:19555 [0] NCCL INFO Trees [0] 6->7->-1/-1/-1
+nid04133:7061:7073 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04345:10897:10910 [0] NCCL INFO include/net.h:19 -> 2
+nid03388:12253:12266 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid03388:12253:12266 [0] NCCL INFO include/net.h:19 -> 2
+nid03059:12588:12601 [0] NCCL INFO Trees [0] 2->3->-1/-1/-1
+nid04133:7061:7073 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04367:3391:3404 [0] NCCL INFO comm 0x2aab38002260 rank 15 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid03059:12588:12601 [0] NCCL INFO comm 0x2aab38002260 rank 3 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid04331:2444:2457 [0] NCCL INFO comm 0x2aab38002260 rank 11 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid03393:19543:19555 [0] NCCL INFO comm 0x2aab38002260 rank 7 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid04133:7061:7073 [0] NCCL INFO include/net.h:19 -> 2
+nid04345:10897:10910 [0] NCCL INFO Ring 00 : 14 -> 12 [receive] via NET/Socket/0
+nid04330:25507:25519 [0] NCCL INFO Ring 00 : 10 -> 12 [send] via NET/Socket/0
+nid04345:10897:10910 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid03058:25825:25838 [0] NCCL INFO Ring 00 : 2 -> 4 [send] via NET/Socket/0
+nid04366:4883:4896 [0] NCCL INFO Ring 00 : 14 -> 12 [send] via NET/Socket/0
+nid04133:7061:7073 [0] NCCL INFO Ring 00 : 12 -> 8 [receive] via NET/Socket/0
+nid03392:17358:17371 [0] NCCL INFO Ring 00 : 6 -> 4 [send] via NET/Socket/0
+nid03388:12253:12266 [0] NCCL INFO Ring 00 : 6 -> 4 [receive] via NET/Socket/0
+nid03058:25825:25838 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid03058:25825:25838 [0] NCCL INFO include/net.h:19 -> 2
+nid04330:25507:25519 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04330:25507:25519 [0] NCCL INFO include/net.h:19 -> 2
+nid04366:4883:4896 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04133:7061:7073 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid03392:17358:17371 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid03392:17358:17371 [0] NCCL INFO include/net.h:19 -> 2
+nid03388:12253:12266 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+Traceback (most recent call last):
+  File "main.py", line 50, in <module>
+    main()
+  File "main.py", line 46, in main
+    run(**args_dict)
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 260, in megatron_mlp_run
+    mlp = ParallelMLP(hidden_size=hidden_dim, world_size=world_size).cuda()
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 203, in __init__
+    self.dense_h_to_4h = ColumnParallelLinear(
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 75, in __init__
+    self.weight = Parameter(torch.Tensor(self.output_size_per_partition,
+RuntimeError: [enforce fail at CPUAllocator.cpp:64] . DefaultCPUAllocator: can't allocate memory: you tried to allocate 65536000000 bytes. Error code 12 (Cannot allocate memory)
+nid04366:4883:4896 [0] NCCL INFO include/net.h:19 -> 2
+Traceback (most recent call last):
+  File "main.py", line 50, in <module>
+    main()
+  File "main.py", line 46, in main
+    run(**args_dict)
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 260, in megatron_mlp_run
+    mlp = ParallelMLP(hidden_size=hidden_dim, world_size=world_size).cuda()
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 203, in __init__
+    self.dense_h_to_4h = ColumnParallelLinear(
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 75, in __init__
+    self.weight = Parameter(torch.Tensor(self.output_size_per_partition,
+RuntimeError: [enforce fail at CPUAllocator.cpp:64] . DefaultCPUAllocator: can't allocate memory: you tried to allocate 65536000000 bytes. Error code 12 (Cannot allocate memory)
+nid03058:25825:25838 [0] NCCL INFO Ring 00 : 4 -> 2 [receive] via NET/Socket/0
+Traceback (most recent call last):
+  File "main.py", line 50, in <module>
+    main()
+  File "main.py", line 46, in main
+    run(**args_dict)
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 260, in megatron_mlp_run
+    mlp = ParallelMLP(hidden_size=hidden_dim, world_size=world_size).cuda()
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 203, in __init__
+    self.dense_h_to_4h = ColumnParallelLinear(
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 75, in __init__
+    self.weight = Parameter(torch.Tensor(self.output_size_per_partition,
+RuntimeError: [enforce fail at CPUAllocator.cpp:64] . DefaultCPUAllocator: can't allocate memory: you tried to allocate 65536000000 bytes. Error code 12 (Cannot allocate memory)
+nid04330:25507:25519 [0] NCCL INFO Ring 00 : 12 -> 10 [receive] via NET/Socket/0
+nid04345:10897:10910 [0] NCCL INFO Ring 00 : 12 -> 8 [send] via NET/Socket/0
+nid03058:25825:25838 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04330:25507:25519 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04366:4883:4896 [0] NCCL INFO Ring 00 : 12 -> 14 [receive] via NET/Socket/0
+nid04366:4883:4896 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid03392:17358:17371 [0] NCCL INFO Ring 00 : 4 -> 6 [receive] via NET/Socket/0
+nid04345:10897:10910 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04345:10897:10910 [0] NCCL INFO include/net.h:19 -> 2
+nid04133:7061:7073 [0] NCCL INFO Ring 00 : 8 -> 0 [send] via NET/Socket/0
+nid03392:17358:17371 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid03388:12253:12266 [0] NCCL INFO Ring 00 : 4 -> 8 [send] via NET/Socket/0
+nid03388:12253:12266 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid03388:12253:12266 [0] NCCL INFO include/net.h:19 -> 2
+nid04133:7061:7073 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid04133:7061:7073 [0] NCCL INFO include/net.h:19 -> 2
+nid04330:25507:25519 [0] NCCL INFO Ring 00 : 10 -> 9 [send] via NET/Socket/0
+nid03058:25825:25838 [0] NCCL INFO Ring 00 : 2 -> 1 [send] via NET/Socket/0
+nid04366:4883:4896 [0] NCCL INFO Ring 00 : 14 -> 13 [send] via NET/Socket/0
+nid04134:5320:5333 [0] NCCL INFO Trees [0] 10->9->-1/-1/-1
+nid04346:29444:29456 [0] NCCL INFO Trees [0] 14->13->-1/-1/-1
+nid03045:16224:16236 [0] NCCL INFO Trees [0] 2->1->-1/-1/-1
+nid03392:17358:17371 [0] NCCL INFO Ring 00 : 6 -> 5 [send] via NET/Socket/0
+nid04345:10897:10910 [0] NCCL INFO Ring 00 : 8 -> 12 [receive] via NET/Socket/0
+nid03388:12253:12266 [0] NCCL INFO Ring 00 : 8 -> 4 [receive] via NET/Socket/0
+nid03389:4819:4832 [0] NCCL INFO Trees [0] 6->5->-1/-1/-1
+nid04134:5320:5333 [0] NCCL INFO comm 0x2aab38002260 rank 9 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid04133:7061:7073 [0] NCCL INFO Ring 00 : 0 -> 8 [receive] via NET/Socket/0
+nid03044:27229:27252 [0] NCCL INFO Ring 00 : 0 -> 8 [send] via NET/Socket/0
+nid04345:10897:10910 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid04133:7061:7073 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid03044:27229:27252 [0] NCCL INFO Trees [0] -1->0->8/-1/-1
+nid04346:29444:29456 [0] NCCL INFO comm 0x2aab38002260 rank 13 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid03045:16224:16236 [0] NCCL INFO comm 0x2aab38002260 rank 1 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid03388:12253:12266 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid03044:27229:27252 [0] NCCL INFO Using 256 threads, Min Comp Cap 6, Trees enabled up to size 299999
+nid03389:4819:4832 [0] NCCL INFO comm 0x2aab38002260 rank 5 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid03044:27229:27252 [0] NCCL INFO comm 0x2aab40002260 rank 0 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid03044:27229:27229 [0] NCCL INFO Launch mode Parallel
+nid04345:10897:10910 [0] NCCL INFO Ring 00 : 12 -> 10 [send] via NET/Socket/0
+nid03388:12253:12266 [0] NCCL INFO Ring 00 : 4 -> 2 [send] via NET/Socket/0
+nid04133:7061:7073 [0] NCCL INFO Ring 00 : 8 -> 4 [send] via NET/Socket/0
+nid04345:10897:10910 [0] NCCL INFO Ring 00 : 12 -> 14 [send] via NET/Socket/0
+nid03388:12253:12266 [0] NCCL INFO Ring 00 : 4 -> 6 [send] via NET/Socket/0
+nid04330:25507:25519 [0] NCCL INFO Trees [0] 12->10->9/11/-1
+nid04133:7061:7073 [0] NCCL INFO Ring 00 : 8 -> 12 [send] via NET/Socket/0
+nid03392:17358:17371 [0] NCCL INFO Trees [0] 4->6->5/7/-1
+nid03058:25825:25838 [0] NCCL INFO Trees [0] 4->2->1/3/-1
+nid04366:4883:4896 [0] NCCL INFO Trees [0] 12->14->13/15/-1
+nid04133:7061:7073 [0] NCCL INFO Trees [0] 0->8->4/12/-1
+nid04345:10897:10910 [0] NCCL INFO Trees [0] 8->12->10/14/-1
+nid03388:12253:12266 [0] NCCL INFO Trees [0] 8->4->2/6/-1
+nid04330:25507:25519 [0] NCCL INFO comm 0x2aab38002260 rank 10 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid04366:4883:4896 [0] NCCL INFO comm 0x2aab38002260 rank 14 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid03392:17358:17371 [0] NCCL INFO comm 0x2aab38002260 rank 6 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid03058:25825:25838 [0] NCCL INFO comm 0x2aab38002260 rank 2 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid03388:12253:12266 [0] NCCL INFO comm 0x2aab38002260 rank 4 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid04133:7061:7073 [0] NCCL INFO comm 0x2aab38002260 rank 8 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid04345:10897:10910 [0] NCCL INFO comm 0x2aab38002260 rank 12 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+Traceback (most recent call last):
+  File "main.py", line 50, in <module>
+    main()
+  File "main.py", line 46, in main
+    run(**args_dict)
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 260, in megatron_mlp_run
+    mlp = ParallelMLP(hidden_size=hidden_dim, world_size=world_size).cuda()
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 203, in __init__
+    self.dense_h_to_4h = ColumnParallelLinear(
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 75, in __init__
+    self.weight = Parameter(torch.Tensor(self.output_size_per_partition,
+RuntimeError: [enforce fail at CPUAllocator.cpp:64] . DefaultCPUAllocator: can't allocate memory: you tried to allocate 65536000000 bytes. Error code 12 (Cannot allocate memory)
+Traceback (most recent call last):
+  File "main.py", line 50, in <module>
+    main()
+  File "main.py", line 46, in main
+    run(**args_dict)
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 260, in megatron_mlp_run
+    mlp = ParallelMLP(hidden_size=hidden_dim, world_size=world_size).cuda()
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 203, in __init__
+    self.dense_h_to_4h = ColumnParallelLinear(
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 75, in __init__
+    self.weight = Parameter(torch.Tensor(self.output_size_per_partition,
+RuntimeError: [enforce fail at CPUAllocator.cpp:64] . DefaultCPUAllocator: can't allocate memory: you tried to allocate 65536000000 bytes. Error code 12 (Cannot allocate memory)
+Traceback (most recent call last):
+  File "main.py", line 50, in <module>
+    main()
+  File "main.py", line 46, in main
+    run(**args_dict)
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 260, in megatron_mlp_run
+    mlp = ParallelMLP(hidden_size=hidden_dim, world_size=world_size).cuda()
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 203, in __init__
+    self.dense_h_to_4h = ColumnParallelLinear(
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 75, in __init__
+    self.weight = Parameter(torch.Tensor(self.output_size_per_partition,
+RuntimeError: [enforce fail at CPUAllocator.cpp:64] . DefaultCPUAllocator: can't allocate memory: you tried to allocate 65536000000 bytes. Error code 12 (Cannot allocate memory)
+Traceback (most recent call last):
+  File "main.py", line 50, in <module>
+    main()
+  File "main.py", line 46, in main
+    run(**args_dict)
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 260, in megatron_mlp_run
+    mlp = ParallelMLP(hidden_size=hidden_dim, world_size=world_size).cuda()
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 203, in __init__
+    self.dense_h_to_4h = ColumnParallelLinear(
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 75, in __init__
+    self.weight = Parameter(torch.Tensor(self.output_size_per_partition,
+RuntimeError: [enforce fail at CPUAllocator.cpp:64] . DefaultCPUAllocator: can't allocate memory: you tried to allocate 65536000000 bytes. Error code 12 (Cannot allocate memory)
+Traceback (most recent call last):
+  File "main.py", line 50, in <module>
+    main()
+  File "main.py", line 46, in main
+    run(**args_dict)
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 260, in megatron_mlp_run
+    mlp = ParallelMLP(hidden_size=hidden_dim, world_size=world_size).cuda()
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 203, in __init__
+    self.dense_h_to_4h = ColumnParallelLinear(
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 75, in __init__
+    self.weight = Parameter(torch.Tensor(self.output_size_per_partition,
+RuntimeError: [enforce fail at CPUAllocator.cpp:64] . DefaultCPUAllocator: can't allocate memory: you tried to allocate 65536000000 bytes. Error code 12 (Cannot allocate memory)
+Traceback (most recent call last):
+  File "main.py", line 50, in <module>
+    main()
+  File "main.py", line 46, in main
+    run(**args_dict)
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 260, in megatron_mlp_run
+    mlp = ParallelMLP(hidden_size=hidden_dim, world_size=world_size).cuda()
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 203, in __init__
+    self.dense_h_to_4h = ColumnParallelLinear(
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 75, in __init__
+    self.weight = Parameter(torch.Tensor(self.output_size_per_partition,
+RuntimeError: [enforce fail at CPUAllocator.cpp:64] . DefaultCPUAllocator: can't allocate memory: you tried to allocate 65536000000 bytes. Error code 12 (Cannot allocate memory)
+Traceback (most recent call last):
+  File "main.py", line 50, in <module>
+    main()
+  File "main.py", line 46, in main
+    run(**args_dict)
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 260, in megatron_mlp_run
+    mlp = ParallelMLP(hidden_size=hidden_dim, world_size=world_size).cuda()
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 203, in __init__
+    self.dense_h_to_4h = ColumnParallelLinear(
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 75, in __init__
+    self.weight = Parameter(torch.Tensor(self.output_size_per_partition,
+RuntimeError: [enforce fail at CPUAllocator.cpp:64] . DefaultCPUAllocator: can't allocate memory: you tried to allocate 65536000000 bytes. Error code 12 (Cannot allocate memory)
+Traceback (most recent call last):
+  File "main.py", line 50, in <module>
+    main()
+  File "main.py", line 46, in main
+    run(**args_dict)
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 260, in megatron_mlp_run
+    mlp = ParallelMLP(hidden_size=hidden_dim, world_size=world_size).cuda()
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 203, in __init__
+    self.dense_h_to_4h = ColumnParallelLinear(
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 75, in __init__
+    self.weight = Parameter(torch.Tensor(self.output_size_per_partition,
+RuntimeError: [enforce fail at CPUAllocator.cpp:64] . DefaultCPUAllocator: can't allocate memory: you tried to allocate 65536000000 bytes. Error code 12 (Cannot allocate memory)
+Traceback (most recent call last):
+  File "main.py", line 50, in <module>
+    main()
+  File "main.py", line 46, in main
+    run(**args_dict)
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 260, in megatron_mlp_run
+    mlp = ParallelMLP(hidden_size=hidden_dim, world_size=world_size).cuda()
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 203, in __init__
+    self.dense_h_to_4h = ColumnParallelLinear(
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 75, in __init__
+    self.weight = Parameter(torch.Tensor(self.output_size_per_partition,
+RuntimeError: [enforce fail at CPUAllocator.cpp:64] . DefaultCPUAllocator: can't allocate memory: you tried to allocate 65536000000 bytes. Error code 12 (Cannot allocate memory)
+Traceback (most recent call last):
+  File "main.py", line 50, in <module>
+    main()
+  File "main.py", line 46, in main
+    run(**args_dict)
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 260, in megatron_mlp_run
+    mlp = ParallelMLP(hidden_size=hidden_dim, world_size=world_size).cuda()
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 203, in __init__
+    self.dense_h_to_4h = ColumnParallelLinear(
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 75, in __init__
+    self.weight = Parameter(torch.Tensor(self.output_size_per_partition,
+RuntimeError: [enforce fail at CPUAllocator.cpp:64] . DefaultCPUAllocator: can't allocate memory: you tried to allocate 65536000000 bytes. Error code 12 (Cannot allocate memory)
+Traceback (most recent call last):
+  File "main.py", line 50, in <module>
+    main()
+  File "main.py", line 46, in main
+    run(**args_dict)
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 260, in megatron_mlp_run
+    mlp = ParallelMLP(hidden_size=hidden_dim, world_size=world_size).cuda()
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 203, in __init__
+    self.dense_h_to_4h = ColumnParallelLinear(
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 75, in __init__
+    self.weight = Parameter(torch.Tensor(self.output_size_per_partition,
+RuntimeError: [enforce fail at CPUAllocator.cpp:64] . DefaultCPUAllocator: can't allocate memory: you tried to allocate 65536000000 bytes. Error code 12 (Cannot allocate memory)
+Traceback (most recent call last):
+  File "main.py", line 50, in <module>
+    main()
+  File "main.py", line 46, in main
+    run(**args_dict)
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 260, in megatron_mlp_run
+    mlp = ParallelMLP(hidden_size=hidden_dim, world_size=world_size).cuda()
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 203, in __init__
+    self.dense_h_to_4h = ColumnParallelLinear(
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 75, in __init__
+    self.weight = Parameter(torch.Tensor(self.output_size_per_partition,
+RuntimeError: [enforce fail at CPUAllocator.cpp:64] . DefaultCPUAllocator: can't allocate memory: you tried to allocate 65536000000 bytes. Error code 12 (Cannot allocate memory)
+srun: error: nid03389: task 5: Exited with exit code 1
+srun: Terminating job step 26287296.0
+srun: error: nid03058: task 2: Exited with exit code 1
+srun: error: nid03059: task 3: Exited with exit code 1
+srun: error: nid04367: task 15: Exited with exit code 1
+srun: error: nid03045: task 1: Exited with exit code 1
+srun: error: nid04346: task 13: Exited with exit code 1
+srun: error: nid04134: task 9: Exited with exit code 1
+srun: error: nid04366: task 14: Exited with exit code 1
+srun: error: nid03392: task 6: Exited with exit code 1
+srun: error: nid03044: task 0: Exited with exit code 1
+srun: error: nid04330: task 10: Exited with exit code 1
+srun: error: nid04345: task 12: Exited with exit code 1
+srun: error: nid04331: task 11: Exited with exit code 1
+srun: error: nid04133: task 8: Exited with exit code 1
+srun: error: nid03393: task 7: Exited with exit code 1
+srun: error: nid03388: task 4: Exited with exit code 1
+
+
+Batch Job Summary Report for Job "summa_pytorch" (26287296) on daint
+Job information (1/3)
+-----------------------------------------------------------------------------------------------------
+             Submit            Eligible               Start                 End    Elapsed Time limit
+------------------- ------------------- ------------------- ------------------- ---------- ----------
+2020-10-16T07:06:25 2020-10-16T07:06:25 2020-10-16T09:21:21 2020-10-16T09:21:45   00:00:24   00:15:00
+-----------------------------------------------------------------------------------------------------
+
+Job information (2/3)
+-------------------------------------------------------------
+    Username      Account    Partition   NNodes        Energy
+------------ ------------ ------------ -------- -------------
+    youyang9        s1054       normal       16     19.136 kJ
+
+Job information (3/3) - GPU utilization data
+---------------------------------------------------
+   Node name       Usage     Max mem Execution time
+------------ ----------- ----------- --------------
+    nid03393         7 %     1699 MB       00:00:05
+    nid04134         5 %     1699 MB       00:00:05
+    nid03044         5 %     1699 MB       00:00:05
+

@@ -1,0 +1,15 @@
+Element type                                            Size  Used MEM
+-------------------------------------------------------------------------------
+Storage on cuda:0
+Tensor0                                      (16, 64, 25600)   100.00M
+dense_h_to_4h.weight                           (6400, 25600)   625.00M
+dense_h_to_4h.bias                                   (6400,)    25.00K
+dense_4h_to_h.weight                           (25600, 6400)   625.00M
+dense_4h_to_h.bias                                  (25600,)   100.00K
+Tensor1                                      (16, 64, 25600)   100.00M
+-------------------------------------------------------------------------------
+Total Tensors: 380140800 	Used Memory: 1.42G
+The allocated memory on cuda:0: 1.42G
+Memory differs due to the matrix alignment or invisible gradient buffer tensors
+-------------------------------------------------------------------------------
+

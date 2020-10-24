@@ -1,0 +1,9 @@
+job_id	node	method	bs	row	dim
+specified	1	summa	8	64	25600
+specified	1	megatron	8	64	25600
+specified	4	summa	8	64	25600
+specified	4	megatron	8	64	25600
+specified	16	summa	8	64	25600
+specified	16	megatron	8	64	25600
+specified	64	summa	8	64	25600
+specified	64	megatron	8	64	25600

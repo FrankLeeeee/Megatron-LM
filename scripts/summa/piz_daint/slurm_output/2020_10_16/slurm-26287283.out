@@ -1,0 +1,48 @@
+nid05847:16187:16187 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.55.6<0>
+nid05847:16187:16187 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid05847:16187:16187 [0] NCCL INFO NET/IB : No device found.
+nid05847:16187:16187 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.55.6<0>
+NCCL version 2.4.8+cuda10.1
+nid05847:16187:16207 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid05847:16187:16207 [0] NCCL INFO Using 256 threads, Min Comp Cap 6, Trees enabled up to size -2
+nid05847:16187:16207 [0] NCCL INFO comm 0x2aab78002260 rank 0 nranks 1 cudaDev 0 nvmlDev 0 - Init COMPLETE
+Traceback (most recent call last):
+  File "main.py", line 50, in <module>
+    main()
+  File "main.py", line 46, in main
+    run(**args_dict)
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/summa_mlp.py", line 145, in summa_mlp_run
+    mlp = SummaMLP(hidden_dim=hidden_dim,
+  File "/apps/daint/UES/jenkins/7.0.UP02/gpu/easybuild/software/PyTorch/1.6.0/lib/python3.8/site-packages/torch/nn/modules/module.py", line 458, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "/apps/daint/UES/jenkins/7.0.UP02/gpu/easybuild/software/PyTorch/1.6.0/lib/python3.8/site-packages/torch/nn/modules/module.py", line 376, in _apply
+    param_applied = fn(param)
+  File "/apps/daint/UES/jenkins/7.0.UP02/gpu/easybuild/software/PyTorch/1.6.0/lib/python3.8/site-packages/torch/nn/modules/module.py", line 458, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+RuntimeError: CUDA out of memory. Tried to allocate 9.77 GiB (GPU 0; 15.90 GiB total capacity; 9.86 GiB already allocated; 5.34 GiB free; 9.86 GiB reserved in total by PyTorch)
+srun: error: nid05847: task 0: Exited with exit code 1
+srun: Terminating job step 26287283.0
+
+
+Batch Job Summary Report (version 20.09.1) for Job "summa_pytorch" (26287283) on daint
+Job information (1/3)
+-----------------------------------------------------------------------------------------------------
+             Submit            Eligible               Start                 End    Elapsed Time limit
+------------------- ------------------- ------------------- ------------------- ---------- ----------
+2020-10-16T07:06:16 2020-10-16T07:06:16 2020-10-16T07:34:56 2020-10-16T07:35:31   00:00:35   00:15:00
+-----------------------------------------------------------------------------------------------------
+
+Job information (2/3)
+-------------------------------------------------------------
+    Username      Account    Partition   NNodes        Energy
+------------ ------------ ------------ -------- -------------
+    youyang9        s1054       normal        1      2.003 kJ
+
+Job information (3/3) - GPU utilization data
+---------------------------------------------------
+   Node name       Usage     Max mem Execution time
+------------ ----------- ----------- --------------
+    nid05847        10 %    10801 MB       00:00:08
+

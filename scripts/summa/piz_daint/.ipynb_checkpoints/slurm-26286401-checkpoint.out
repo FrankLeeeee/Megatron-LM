@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "main.py", line 50, in <module>
+    main()
+  File "main.py", line 46, in main
+    run(**args_dict)
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 256, in megatron_mlp_run
+    input_tensor = torch.rand((batch_size, input_row, hidden_dim)).cuda()
+RuntimeError: [enforce fail at CPUAllocator.cpp:64] . DefaultCPUAllocator: can't allocate memory: you tried to allocate 419430400000 bytes. Error code 12 (Cannot allocate memory)
+srun: error: nid07589: task 0: Exited with exit code 1
+srun: Terminating job step 26286401.0

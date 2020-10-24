@@ -2,10 +2,13 @@ import subprocess
 import os
 
 methods = ['summa', 'megatron']
-batch_size = [32, 64]
-input_row = [32, 64]
-hidden_dim = [128, 256, 512]
-nodes = [1, 4, 16, 64]
+batch_size = [16]
+input_row = [64]
+hidden_dim = [25600]
+# nodes = [1, 4, 16, 64]
+nodes = [1]
+output_path = './profiling/2020_10_16_2'
+log_book_path = os.path.join(output_path, 'logbook.txt')
 
 # for testing only
 # methods = ['summa']
@@ -14,7 +17,10 @@ nodes = [1, 4, 16, 64]
 # hidden_dim = [64]
 # nodes = [4]
 
-log_book = open('logbook.txt', 'w')
+if not os.path.exists(output_path):
+    os.mkdir(output_path)
+
+log_book = open(log_book_path, 'w')
 log_book.write('job_id\tnode\tmethod\tbs\trow\tdim\n')
 
 for node in nodes:
@@ -31,8 +37,8 @@ for node in nodes:
         for row in input_row:
             for dim in hidden_dim:
                 for method in methods:
-                    output = subprocess.getoutput("sbatch ./test.sh {} {} {} {}".format(
-                        method, bs, row, dim
+                    output = subprocess.getoutput("sbatch ./test.sh {} {} {} {} {}".format(
+                        method, bs, row, dim, output_path
                     ))
 
                     job_id = output.split()[-1]

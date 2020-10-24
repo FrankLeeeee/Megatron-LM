@@ -1,0 +1,113 @@
+nid06068:13817:13817 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.55.227<0>
+nid06068:13817:13817 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid06068:13817:13817 [0] NCCL INFO NET/IB : No device found.
+nid06068:13817:13817 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.55.227<0>
+NCCL version 2.4.8+cuda10.1
+nid06068:13817:13845 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid07238:10365:10365 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.60.127<0>
+nid07238:10365:10365 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid07238:10365:10365 [0] NCCL INFO NET/IB : No device found.
+nid07238:10365:10365 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.60.127<0>
+nid07238:10365:10383 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid06070:2306:2306 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.55.229<0>
+nid07455:29827:29827 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.61.90<0>
+nid06070:2306:2306 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid06070:2306:2306 [0] NCCL INFO NET/IB : No device found.
+nid06070:2306:2306 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.55.229<0>
+nid06070:2306:2324 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid07455:29827:29827 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid07455:29827:29827 [0] NCCL INFO NET/IB : No device found.
+nid07455:29827:29827 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.61.90<0>
+nid07455:29827:29845 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid06070:2306:2324 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid06070:2306:2324 [0] NCCL INFO include/net.h:19 -> 2
+nid07238:10365:10383 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid07238:10365:10383 [0] NCCL INFO include/net.h:19 -> 2
+nid06068:13817:13845 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid06068:13817:13845 [0] NCCL INFO include/net.h:19 -> 2
+nid07238:10365:10383 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid07455:29827:29845 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid07455:29827:29845 [0] NCCL INFO include/net.h:19 -> 2
+nid07455:29827:29845 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid06068:13817:13845 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid06070:2306:2324 [0] NCCL INFO CUDA Dev 0[0], Socket NIC distance :  SYS
+nid06068:13817:13845 [0] NCCL INFO Channel 00 :    0   1   2   3
+nid06068:13817:13845 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid06068:13817:13845 [0] NCCL INFO include/net.h:19 -> 2
+nid06070:2306:2324 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid06070:2306:2324 [0] NCCL INFO include/net.h:19 -> 2
+nid07238:10365:10383 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid07238:10365:10383 [0] NCCL INFO include/net.h:19 -> 2
+nid07455:29827:29845 [0] NCCL INFO Could not find real path of /sys/class/net/ipogif0/device
+nid07455:29827:29845 [0] NCCL INFO include/net.h:19 -> 2
+nid06070:2306:2324 [0] NCCL INFO Ring 00 : 0 -> 1 [receive] via NET/Socket/0
+nid06070:2306:2324 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid07455:29827:29845 [0] NCCL INFO Ring 00 : 2 -> 3 [receive] via NET/Socket/0
+nid07238:10365:10383 [0] NCCL INFO Ring 00 : 1 -> 2 [receive] via NET/Socket/0
+nid07455:29827:29845 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid06068:13817:13845 [0] NCCL INFO Ring 00 : 3 -> 0 [receive] via NET/Socket/0
+nid07238:10365:10383 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid06068:13817:13845 [0] NCCL INFO NET/Socket: Using 1 threads and 1 sockets per thread
+nid06070:2306:2324 [0] NCCL INFO Ring 00 : 1 -> 2 [send] via NET/Socket/0
+nid07455:29827:29845 [0] NCCL INFO Ring 00 : 3 -> 0 [send] via NET/Socket/0
+nid07238:10365:10383 [0] NCCL INFO Ring 00 : 2 -> 3 [send] via NET/Socket/0
+nid06068:13817:13845 [0] NCCL INFO Ring 00 : 0 -> 1 [send] via NET/Socket/0
+nid06068:13817:13845 [0] NCCL INFO Using 256 threads, Min Comp Cap 6, Trees disabled
+nid07238:10365:10383 [0] NCCL INFO comm 0x2aab38002260 rank 2 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid07455:29827:29845 [0] NCCL INFO comm 0x2aab38002260 rank 3 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid06068:13817:13845 [0] NCCL INFO comm 0x2aab40002260 rank 0 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid06070:2306:2324 [0] NCCL INFO comm 0x2aab38002260 rank 1 nranks 4 cudaDev 0 nvmlDev 0 - Init COMPLETE
+nid06068:13817:13817 [0] NCCL INFO Launch mode Parallel
+Traceback (most recent call last):
+  File "main.py", line 50, in <module>
+    main()
+  File "main.py", line 46, in main
+    run(**args_dict)
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/summa_mlp.py", line 145, in summa_mlp_run
+    mlp = SummaMLP(hidden_dim=hidden_dim,
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/summa_mlp.py", line 45, in __init__
+    self.w1 = Parameter(torch.Tensor(self.hidden_dim * 4 // self.dim_col,
+RuntimeError: [enforce fail at CPUAllocator.cpp:64] . DefaultCPUAllocator: can't allocate memory: you tried to allocate 524288000000 bytes. Error code 12 (Cannot allocate memory)
+Traceback (most recent call last):
+  File "main.py", line 50, in <module>
+    main()
+  File "main.py", line 46, in main
+    run(**args_dict)
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/summa_mlp.py", line 145, in summa_mlp_run
+    mlp = SummaMLP(hidden_dim=hidden_dim,
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/summa_mlp.py", line 45, in __init__
+    self.w1 = Parameter(torch.Tensor(self.hidden_dim * 4 // self.dim_col,
+RuntimeError: [enforce fail at CPUAllocator.cpp:64] . DefaultCPUAllocator: can't allocate memory: you tried to allocate 524288000000 bytes. Error code 12 (Cannot allocate memory)
+Traceback (most recent call last):
+  File "main.py", line 50, in <module>
+    main()
+  File "main.py", line 46, in main
+    run(**args_dict)
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/summa_mlp.py", line 145, in summa_mlp_run
+    mlp = SummaMLP(hidden_dim=hidden_dim,
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/summa_mlp.py", line 45, in __init__
+    self.w1 = Parameter(torch.Tensor(self.hidden_dim * 4 // self.dim_col,
+RuntimeError: [enforce fail at CPUAllocator.cpp:64] . DefaultCPUAllocator: can't allocate memory: you tried to allocate 524288000000 bytes. Error code 12 (Cannot allocate memory)
+Traceback (most recent call last):
+  File "main.py", line 50, in <module>
+    main()
+  File "main.py", line 46, in main
+    run(**args_dict)
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/summa_mlp.py", line 145, in summa_mlp_run
+    mlp = SummaMLP(hidden_dim=hidden_dim,
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/summa_mlp.py", line 45, in __init__
+    self.w1 = Parameter(torch.Tensor(self.hidden_dim * 4 // self.dim_col,
+RuntimeError: [enforce fail at CPUAllocator.cpp:64] . DefaultCPUAllocator: can't allocate memory: you tried to allocate 524288000000 bytes. Error code 12 (Cannot allocate memory)
+srun: error: nid06070: task 1: Exited with exit code 1
+srun: Terminating job step 26287293.0
+srun: error: nid07455: task 3: Exited with exit code 1
+srun: error: nid06068: task 0: Exited with exit code 1
+srun: error: nid07238: task 2: Exited with exit code 1

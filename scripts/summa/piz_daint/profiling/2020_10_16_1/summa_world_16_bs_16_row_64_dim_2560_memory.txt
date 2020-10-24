@@ -1,0 +1,13 @@
+Element type                                            Size  Used MEM
+-------------------------------------------------------------------------------
+Storage on cuda:0
+Tensor0                                       (16, 16, 2560)    10.00M
+w1                                              (2560, 2560)    25.00M
+w2                                               (2560, 640)     6.25M
+Tensor1                                       (16, 64, 2560)    10.00M
+-------------------------------------------------------------------------------
+Total Tensors: 11468800 	Used Memory: 51.25M
+The allocated memory on cuda:0: 52.25M
+Memory differs due to the matrix alignment or invisible gradient buffer tensors
+-------------------------------------------------------------------------------
+

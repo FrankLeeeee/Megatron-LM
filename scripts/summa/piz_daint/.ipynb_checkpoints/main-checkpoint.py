@@ -14,9 +14,10 @@ def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--method", type=str,
                         choices=['summa', 'megatron'], required=True)
-    parser.add_argument("--batch_size", type=int, default=16)
+    parser.add_argument("--batch_size", type=int, default=64)
     parser.add_argument("--input_row", type=int, default=64)
-    parser.add_argument("--hidden_dim", type=int, default=128)
+    parser.add_argument("--hidden_dim", type=int, default=256)
+    parser.add_argument("--output_path", type=str, default='./profiling/default')
     args = parser.parse_args()
     return args
 
@@ -32,6 +33,9 @@ def main():
         run = summa_mlp_run
     elif parallel_method == 'megatron':
         run = megatron_mlp_run
+    
+    if not os.path.exists(args.output_path):
+        os.mkdir(args.output_path)
     
     world_size = int(os.environ['SLURM_NTASKS'])
     args.rank = int(os.environ['SLURM_PROCID'])

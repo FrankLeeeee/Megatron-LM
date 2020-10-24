@@ -1,0 +1,24 @@
+nid06032:22480:22480 [0] NCCL INFO Bootstrap : Using [0]ipogif0:148.187.55.191<0>
+nid06032:22480:22480 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+libibverbs: Could not locate libibgni (/usr/lib64/libibgni.so.1: undefined symbol: verbs_uninit_context)
+libibverbs: Warning: couldn't open config directory '/opt/cray/rdma-core/22.3-7.0.2.1_2.21__g42f5f32b.ari/etc/libibverbs.d'.
+nid06032:22480:22480 [0] NCCL INFO NET/IB : No device found.
+nid06032:22480:22480 [0] NCCL INFO NET/Socket : Using [0]ipogif0:148.187.55.191<0>
+NCCL version 2.4.8+cuda10.1
+nid06032:22480:22497 [0] NCCL INFO Setting affinity for GPU 0 to ffffff
+nid06032:22480:22497 [0] NCCL INFO Using 256 threads, Min Comp Cap 6, Trees enabled up to size -2
+nid06032:22480:22497 [0] NCCL INFO comm 0x2aab40002260 rank 0 nranks 1 cudaDev 0 nvmlDev 0 - Init COMPLETE
+Traceback (most recent call last):
+  File "main.py", line 50, in <module>
+    main()
+  File "main.py", line 46, in main
+    run(**args_dict)
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 260, in megatron_mlp_run
+    mlp = ParallelMLP(hidden_size=hidden_dim, world_size=world_size).cuda()
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 203, in __init__
+    self.dense_h_to_4h = ColumnParallelLinear(
+  File "/users/youyang9/lsg/Megatron-LM/scripts/summa/piz_daint/megatron_mlp.py", line 75, in __init__
+    self.weight = Parameter(torch.Tensor(self.output_size_per_partition,
+RuntimeError: [enforce fail at CPUAllocator.cpp:64] . DefaultCPUAllocator: can't allocate memory: you tried to allocate 1048576000000 bytes. Error code 12 (Cannot allocate memory)
+srun: error: nid06032: task 0: Exited with exit code 1
+srun: Terminating job step 26287292.0

@@ -1,0 +1,12 @@
+cpu_count: 24
+cpu_model_name:  Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz
+gpu_count: 1
+gpu_name: Tesla P100-PCIE-16GB
+gpu_ram: 17071734784
+system: Linux
+world_size: 4
+Total Tensors: 1363200000 	Used Memory: 5.08G
+The allocated memory on cuda:0: 5.08G
+min time for forward/ms: 363.7786560058594
+max time for forward/ms: 364.60333251953125
+avg time for forward/ms: 364.1940002441406
